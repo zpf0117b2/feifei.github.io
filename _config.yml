@@ -1,6 +1,6 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
+title: Pengfei Zhang
+description: Find interesting stuff in this homepage
 repository: zpf0117b/PengfeiZhang.github.io
 github_url: https://github.com/zpf0117b
 url: https://PengfeiZhang.github.io
@@ -30,15 +30,15 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
+# twitter:
+#   username: vszhub
+#   card: summary
 logo: logo.png
-social:
-  name: Songzi Vong
-  links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+# social:
+#   name: Songzi Vong
+#   links:
+#     - https://twitter.com/vszhub
+#     - https://github.com/vszhub
 google_site_verification: xxxxx
 lang: en
 
@@ -56,6 +56,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Pengfei Zhang
+  url: https://github.com/zpf0117b
+  email: pengfz5@uci.edu
