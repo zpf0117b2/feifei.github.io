@@ -2,7 +2,7 @@
 layout: page
 permalink: /main/
 title: About
-toc:  true
+# toc:  true
 ---
 
 I'm a PHD student in UC Irvine, majoring in Computer Science. I obtained Bachelor degree in Computer Science at USTC in 2021. My research interests, which are cultivated by the research experience, involve artificial intelligence, computer vision, bioinformatics, and database.
