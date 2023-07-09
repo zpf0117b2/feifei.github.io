@@ -1,7 +1,9 @@
 # Setup
 title: Not Pure Poole
 description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+repository: zpf0117b/PengfeiZhang.github.io
+github_url: https://github.com/zpf0117b
+url: https://PengfeiZhang.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
