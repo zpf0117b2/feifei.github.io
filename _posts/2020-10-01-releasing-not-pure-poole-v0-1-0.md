@@ -27,7 +27,7 @@ For more information about this theme, you can read the [README](https://github.
 
 See Not Pure Poole in action with [the demo site](https://vszhub.github.io/not-pure-poole/).
 
-![Screenshot](screenshot.png)
+![Screenshot](_images/2020-10-01-screenshot.png)
 
 ## Table of Contents <!-- omit in toc -->
 
