@@ -14,7 +14,6 @@ I obtained Bachelor degree in Computer Science at USTC in 2021. If you’re inte
 #### NEWS 
 
 10/2023: One paper is accepted by WACV 2024.
-
 10/2023: Switched to the new lab with research on artificial intelligence, computer vision, and large language model for healthcare
 
 05/2022: One paper is accepted by RECOMB 2023 for oral presentation.
