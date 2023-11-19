@@ -8,7 +8,7 @@ map: true
 
 I'm a PHD student in UC Irvine, majoring in Computer Science. My research interests involve computer vision and large language models (LLMs) for healthcare. Currently, my main research work includes conversational healthcare agent utilizing LLMs and knowledge graph, human pose estimation, and medical imaging.
 
-I obtained Bachelor degree in Computer Science at USTC in 2021. If you’re interested in me or would like to collaborate with me, feel free to get more information from [Pengfei’s CV](files/CV_intern.pdf) and drop me an email.
+I obtained Bachelor degree in Computer Science at USTC in 2021. If you’re interested in me or would like to collaborate with me, feel free to get more information from [Pengfei’s CV](files/PengfeiZhang_resume.pdf) and drop me an email.
 
 ---
 
