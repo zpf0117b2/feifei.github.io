@@ -33,8 +33,8 @@ table th:nth-of-type(4) {
 
 | &nbsp;        | &nbsp;         |
 | ---- |:---------------:|
-| ![C2](pubimages/C2.jpg)      | Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong.  <br> WACV 2024 (accepted)<br> paper |
-| ![C1](pubimages/C1.jpg)      | CLMB: deep contrastive learning for robust metagenomic binning<br>**Pengfei Zhang**, Zhengyuan Jiang, Yixuan Wang, Yu Li.<br>RECOMB 2022 (oral)<br>[\[paper\]](https://doi.org/10.1101/2021.11.15.468566) [\[code\]](https://github.com/zpf0117b/CLMB/)      |
+| ![C2](pubimages/C2.jpg)      | Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong.  <br> WACV 2024 (accepted)<br> \[paper: coming soom\] |
+| ![C1](pubimages/C1.jpg)      | CLMB: deep contrastive learning for robust metagenomic binning<br>**Pengfei Zhang**, Zhengyuan Jiang, Yixuan Wang, Yu Li.<br>RECOMB 2022 (oral)<br>[\[paper\]](https://doi.org/10.1101/2021.11.15.468566) [\[code\]](https://github.com/zpf0117b/CLMB/) [\[Author's Blog\]](https://zpf0117b.github.io/PengfeiZhang.github.io/2022/01/20/contrastive-learning-for-robust-metagenome-binning/)     |
 
 ## Journals
 
