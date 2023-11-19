@@ -30,6 +30,7 @@ Jan 2023 - Present
 | **Selected publications:**        | &nbsp;         |
 | Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image. (WACV 2024)        | First author  |
 
+---
 
 ## Large Language Models as Artificial Healthcare Assistant
 
