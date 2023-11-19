@@ -28,7 +28,7 @@ table th:nth-of-type(4) {
 <!-- | ![Paper Image](link-to-image) | **Paper Title**<br>Authors: Your Name, Co-Author<br>Published in: Journal/Conference Name, Year<br>[Link to Paper](paper-link) <br>Abstract: Brief description of the paper. |
 |---|---| -->
 
-## Conferences
+### Conferences
 <!-- [Author's Blog](https://zpf0117b.github.io/PengfeiZhang.github.io/2022/01/20/contrastive-learning-for-robust-metagenome-binning/) -->
 
 | &nbsp;        | &nbsp;         |
@@ -38,7 +38,7 @@ table th:nth-of-type(4) {
 
 ---
 
-## Journals
+### Journals
 
 | &nbsp;        | &nbsp;        |
 | ---- |:---------------:|
