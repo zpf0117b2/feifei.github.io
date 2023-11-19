@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /main/
+permalink: /
 title: Bio
 # toc:  true
 map: true
