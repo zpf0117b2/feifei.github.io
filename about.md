@@ -70,8 +70,8 @@ table th:nth-of-type(4) {
 | ---- |:---------------:|
 | Healthcare informatics combines medical data analysis with advanced computing, particularly through bioinformatics and AI applications. Bioinformatics focuses on analyzing biological data like genomics for drug discovery and personalized medicine, while Large Language Models power clinical decision support, patient care automation, and personalized nutrition recommendations. The field faces challenges in data privacy and clinical validation but promises significant advances in personalized medicine and preventive care through multimodal data integration and advanced analytics. | ![R2](pubimages/R2.jpg) |
 | **Publications:**        | &nbsp; |
-| ![A.C1](pubimages/A.C1.png) | ![A.C2](pubimages/A.C2.png) |  DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care.<br> Yutong Song, Chenhan Lyu, **Pengfei Zhang**, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani.<br> [\[preprint\]](https://openreview.net/pdf?id=m7KkNKMDVp) |
-| Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[preprint\]](https://arxiv.org/abs/2402.10153) |
+| ![A.C2](pubimages/A.C2.png) |  DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care.<br> Yutong Song, Chenhan Lyu, **Pengfei Zhang**, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani.<br> [\[preprint\]](https://openreview.net/pdf?id=m7KkNKMDVp) |
+| Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[preprint\]](https://arxiv.org/abs/2402.10153) | ![A.C1](pubimages/A.C1.png) |
 
 
 ## Internships
@@ -82,7 +82,7 @@ Research Intern in the Chinese University of Hong Kong. Location: Hong Kong
 
 ## Projects
 
-A [\[Multi-topic Web Chatroom\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization) which can provide summaries from LLaMa and backup on previous conversations
+[\[Multi-topic Web Chatroom\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization) which can provide summaries from LLaMa and backup on previous conversations
 
 ## Awards
 
