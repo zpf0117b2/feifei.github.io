@@ -2,7 +2,7 @@
 layout: post
 title: Contrastive Learning for Robust Metagenomic Binning
 author: Pengfei Zhang
-tags: [publication, applied artificial intelligence, bioinformatics]
+tags: [publication, artificial intelligence, bioinformatics]
 date: 2022-01-20 11:06 +0800
 toc:  true
 ---

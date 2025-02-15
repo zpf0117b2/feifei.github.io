@@ -2,8 +2,8 @@
 title: Pengfei Zhang
 description: Find interesting stuff in this homepage
 repository: zpf0117b/PengfeiZhang.github.io
-github_url: https://github.com/zpf0117b
-url: https://PengfeiZhang.github.io/main
+github_url: https://github.com/zpf0117b2
+url: https://zpf0117b2.github.io/feifei.github.io/main/
 avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
@@ -57,5 +57,5 @@ sass:
 # Specify the author for blog posts
 author:
   name: Pengfei Zhang
-  url: https://github.com/zpf0117b
+  url: https://github.com/zpf0117b2
   email: pengfz5@uci.edu
