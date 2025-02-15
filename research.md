@@ -19,11 +19,11 @@ table th:nth-of-type(2) {
 }
 </style>
 
-### Human Hand Motion Estimation and Gait Forecasting 
+### Human Motion Synthesis
 
 | Jan 2023 - Present       | &nbsp;         |
 | ---- |:---------------:|
-| Human Hand Motion Estimation and Gait Forecasting delve into the complexities of human hand movements and walking patterns, with the goal of understanding and predicting them. Hand motion estimation is particularly focused on the precise prediction and analysis of hand movements, playing a crucial role in interpreting gestures and enhancing advanced technological interfaces. In contrast, gait forecasting concentrates on predicting future walking patterns or identifying potential abnormalities in an individual's gait, a key element in both proactive healthcare and security.<br> These advancements bring significant benefits across various fields. In healthcare, they promise to transform rehabilitation by offering tailored therapy plans for patients with hand injuries or neurological conditions, thereby greatly improving treatment outcomes. Moreover, in the field of robotics, an intricate understanding of human motion can guide the creation of more lifelike robotic systems. This not only narrows the gap between artificial and natural movements but also expands the capabilities and applications of robotics in everyday life.    |   ![R1](pubimages/R1.jpg)     |
+| Human Motion Synthesis using generative models focuses on creating realistic human movement sequences through machine learning algorithms that learn from existing motion data. The goal is to produce lifelike movements for a variety of applications, including animation, robotics, and virtual environments. These models are especially valuable in scenarios where motion data is sparse or where real-time motion adaptation is necessary. Human motion synthesis is applied in fields like video game character animation, virtual reality, humanoid robotics, and healthcare (e.g., rehabilitation). However, challenges remain in generating coherent, realistic, and physically plausible motions, as well as ensuring that the generated movements respect human anatomy and physics, which is critical for achieving natural-looking and functional results. |       |
 | **Selected publications:**        | &nbsp;         |
 | Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image. ([WACV 2024](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html))        | First author  |
 
