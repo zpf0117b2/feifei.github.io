@@ -3,7 +3,8 @@ layout: page
 permalink: /main/
 title: Bio
 # toc:  true
-map: true
+sitemap: true
+map: false
 ---
 
 Pengfei Zhang is a PHD student in UC Irvine, majoring in Computer Science. His main research field is applied generative model for motion synthesis and generation. His research interest involves Motion Synthesis and Generation, Large Language/Vision Models (LLMs/LVMs), Retrieval Augmented Generation, Diffusion models, and Pose Estimation. He obtained Bachelor degree in Computer Science at USTC in 2021. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume.pdf).
@@ -28,7 +29,7 @@ My scientific experiences are recorded in [research](https://zpf0117b.github.io/
 
 <!-- <embed src="http://files2.17173.com/__flash/2011/10/21/honehone_clock_tr.swf"> -->
 
-#### Research
+## Research
 
 ##### Motion Synthesis and Generation
 
@@ -52,17 +53,17 @@ My scientific experiences are recorded in [research](https://zpf0117b.github.io/
 | ![A.C1](pubimages/A.C1.png)      | Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[preprint\]](https://arxiv.org/abs/2402.10153) |
 
 
-#### Internships
+## Internships
 
 Research Science Intern at Flawless. AI. Inc. Location: Los Angeles
 
 Research Intern in the Chinese University of Hong Kong. Location: Hong Kong
 
-#### Projects
+## Projects
 
 A [\[Multi-topic Web Chatroom\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization) which can provide summaries from LLaMa and backup on previous conversations
 
-#### Awards
+## Awards
 
 Dean’s award from UCI
 
