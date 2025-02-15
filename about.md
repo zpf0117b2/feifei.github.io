@@ -3,7 +3,7 @@ layout: page
 permalink: /main/
 title: Bio
 # toc:  true
-# sitemap: true
+sitemap: true
 map: false
 ---
 
@@ -35,11 +35,11 @@ My scientific experiences are recorded in [research](https://zpf0117b.github.io/
 
 | Jan 2023 - Present       | &nbsp;         |
 | ---- |:---------------:|
-| Human motion synthesis and generation is a multifaceted field that combines computer vision, graphics, and machine learning to understand, generate, and control human movements. It encompasses three main components: motion understanding, which analyzes human movements and poses; motion generation, which creates realistic movement sequences using data-driven and physics-based approaches; and trajectory control, which focuses on manipulating and directing generated movements to achieve specific goals. The field employs various deep learning models like Transformers, VQ-VAEs, and Diffusion Models, finding applications in animation, virtual reality, robotics, healthcare, and sports, while continuing to address challenges in physical plausibility, style preservation, and real-time performance. | ![C4](pubimages/C4.png) |
+| ![C4](pubimages/C4.png) | Human motion synthesis and generation is a multifaceted field that combines computer vision, graphics, and machine learning to understand, generate, and control human movements. It encompasses three main components: motion understanding, which analyzes human movements and poses; motion generation, which creates realistic movement sequences using data-driven and physics-based approaches; and trajectory control, which focuses on manipulating and directing generated movements to achieve specific goals. The field employs various deep learning models like Transformers, VQ-VAEs, and Diffusion Models, finding applications in animation, virtual reality, robotics, healthcare, and sports, while continuing to address challenges in physical plausibility, style preservation, and real-time performance. |
 | **Publications:**        | &nbsp;         |
-| ![C4.2](pubimages/C4.2.png)      | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> [\[preprint\]](https://arxiv.org/abs/2411.15472) |
-| ![C3](pubimages/C3.png)      | Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
-| ![C2](pubimages/C2.jpg)      | Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong.  <br> WACV 2024 (accepted)<br> [\[paper\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html) |
+| KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> [\[preprint\]](https://arxiv.org/abs/2411.15472) | ![C4.2](pubimages/C4.2.png) |
+| Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> [\[preprint\]](https://arxiv.org/abs/2502.07239)  | ![C3](pubimages/C3.png)      | 
+| Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong.  <br> WACV 2024 (accepted)<br> [\[paper\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html) | ![C2](pubimages/C2.jpg)      | 
 
 
 
@@ -47,10 +47,10 @@ My scientific experiences are recorded in [research](https://zpf0117b.github.io/
 
 | Sep 2021 - Present       | &nbsp;         |
 | ---- |:---------------:|
-| Healthcare informatics combines medical data analysis with advanced computing, particularly through bioinformatics and AI applications. Bioinformatics focuses on analyzing biological data like genomics for drug discovery and personalized medicine, while Large Language Models power clinical decision support, patient care automation, and personalized nutrition recommendations. The field faces challenges in data privacy and clinical validation but promises significant advances in personalized medicine and preventive care through multimodal data integration and advanced analytics. | ![R2](pubimages/R2.jpg) |
+| ![R2](pubimages/R2.jpg) | Healthcare informatics combines medical data analysis with advanced computing, particularly through bioinformatics and AI applications. Bioinformatics focuses on analyzing biological data like genomics for drug discovery and personalized medicine, while Large Language Models power clinical decision support, patient care automation, and personalized nutrition recommendations. The field faces challenges in data privacy and clinical validation but promises significant advances in personalized medicine and preventive care through multimodal data integration and advanced analytics. |
 | **Publications:**        | &nbsp; |
-| ![A.C2](pubimages/A.C2.png)      | DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care.<br> Yutong Song, Chenhan Lyu, **Pengfei Zhang**, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani.<br> [\[preprint\]](https://openreview.net/pdf?id=m7KkNKMDVp) |
-| ![A.C1](pubimages/A.C1.png)      | Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[preprint\]](https://arxiv.org/abs/2402.10153) |
+| DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care.<br> Yutong Song, Chenhan Lyu, **Pengfei Zhang**, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani.<br> [\[preprint\]](https://openreview.net/pdf?id=m7KkNKMDVp) | ![A.C2](pubimages/A.C2.png)      | 
+| Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[preprint\]](https://arxiv.org/abs/2402.10153) | ![A.C1](pubimages/A.C1.png)      | 
 
 
 ## Internships
