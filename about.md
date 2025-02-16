@@ -50,9 +50,9 @@ table th:nth-of-type(4) {
 } */
 </style>
 
-## Research
+# Research
 
-##### Motion Synthesis and Generation
+### Motion Synthesis and Generation
 
 | Jan 2023 - Present       | &nbsp;         |
 | ---- |:---------------:|
@@ -64,27 +64,27 @@ table th:nth-of-type(4) {
 
 
 
-##### Healthcare Informatics
+### Healthcare Informatics
 
 | Sep 2021 - Present       | &nbsp;         |
 | ---- |:---------------:|
 | Healthcare informatics combines medical data analysis with advanced computing, particularly through bioinformatics and AI applications. Bioinformatics focuses on analyzing biological data like genomics for drug discovery and personalized medicine, while Large Language Models power clinical decision support, patient care automation, and personalized nutrition recommendations. The field faces challenges in data privacy and clinical validation but promises significant advances in personalized medicine and preventive care through multimodal data integration and advanced analytics. | ![R2](pubimages/R2.jpg) |
 | **Publications:**        | &nbsp; |
-| ![A.C2](pubimages/A.C2.png) |  DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care.<br> Yutong Song, Chenhan Lyu, **Pengfei Zhang**, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani.<br> [\[preprint\]](https://openreview.net/pdf?id=m7KkNKMDVp) |
+| ![A.C2](pubimages/A.C2.png) |  DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care.<br> Yutong Song, Chenhan Lyu, **Pengfei Zhang**, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani.<br> AAAI 2025 Workshop: Knowledge Graphs for Health Equity, Justice, and Social Services <br>[\[preprint\]](https://openreview.net/pdf?id=m7KkNKMDVp) |
 | ![A.C1](pubimages/A.C1.png) | Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[paper\]](https://arxiv.org/abs/2402.10153) |
+| ![C1](pubimages/C1.jpg)      | CLMB: deep contrastive learning for robust metagenomic binning<br>**Pengfei Zhang**, Zhengyuan Jiang, Yixuan Wang, Yu Li.<br>RECOMB 2022 (oral)<br>[\[paper\]](https://doi.org/10.1101/2021.11.15.468566) [\[code\]](https://github.com/zpf0117b/CLMB/) [\[Author's Blog\]](https://zpf0117b2.github.io/feifei.github.io/2022/01/20/contrastive-learning-for-robust-metagenome-binning/)     |
 
-
-## Internships
+# Internships
 
 Research Science Intern at Flawless. AI. Inc. Location: Los Angeles
 
 Research Intern in the Chinese University of Hong Kong. Location: Hong Kong
 
-## Projects
+# Projects
 
-[\[Multi-topic Web Chatroom\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization) which can provide summaries from LLaMa and backup on previous conversations
+[\[Distributed Chatroom with LLaMa-Powered Summarization\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization): A Multi-topic Web Chatroom which can provide backup on previous conversations and LLaMa Powered summarizations after each refresh
 
-## Awards
+# Awards
 
 Dean’s award from UCI
 
