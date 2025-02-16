@@ -58,7 +58,7 @@ table th:nth-of-type(4) {
 | ---- |:---------------:|
 |Human motion synthesis and generation is a multifaceted field that combines computer vision, graphics, and machine learning to understand, generate, and control human movements. It encompasses three main components: motion understanding, which analyzes human movements and poses; motion generation, which creates realistic movement sequences using data-driven and physics-based approaches; and trajectory control, which focuses on manipulating and directing generated movements to achieve specific goals. The field employs various deep learning models like Transformers, VQ-VAEs, and Diffusion Models, finding applications in animation, virtual reality, robotics, healthcare, and sports, while continuing to address challenges in physical plausibility, style preservation, and real-time performance. | ![C4](pubimages/C4.png) | 
 | **Publications:**        | &nbsp;         |
-| ![C4.2](pubimages/C4.2.png) | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> [\[preprint\]](https://arxiv.org/abs/2411.15472) |
+| ![C4.2](pubimages/C4.2.png) | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> [\[project\]](https://andypinxinliu.github.io/KinMo/) [\[preprint\]](https://arxiv.org/abs/2411.15472) [\[demo\]](https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4) |
 | ![C3](pubimages/C3.png) |  Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
 | ![C2](pubimages/C2.jpg) |  Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong.  <br> WACV 2024 (accepted)<br> [\[paper\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html) |
 
@@ -71,8 +71,8 @@ table th:nth-of-type(4) {
 | Healthcare informatics combines medical data analysis with advanced computing, particularly through bioinformatics and AI applications. Bioinformatics focuses on analyzing biological data like genomics for drug discovery and personalized medicine, while Large Language Models power clinical decision support, patient care automation, and personalized nutrition recommendations. The field faces challenges in data privacy and clinical validation but promises significant advances in personalized medicine and preventive care through multimodal data integration and advanced analytics. | ![R2](pubimages/R2.jpg) |
 | **Publications:**        | &nbsp; |
 | ![A.C2](pubimages/A.C2.png) |  DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care.<br> Yutong Song, Chenhan Lyu, **Pengfei Zhang**, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani.<br> AAAI 2025 Workshop: Knowledge Graphs for Health Equity, Justice, and Social Services <br>[\[preprint\]](https://openreview.net/pdf?id=m7KkNKMDVp) |
-| ![A.C1](pubimages/A.C1.png) | Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[paper\]](https://arxiv.org/abs/2402.10153) |
-| ![C1](pubimages/C1.jpg)      | CLMB: deep contrastive learning for robust metagenomic binning<br>**Pengfei Zhang**, Zhengyuan Jiang, Yixuan Wang, Yu Li.<br>RECOMB 2022 (oral)<br>[\[paper\]](https://doi.org/10.1101/2021.11.15.468566) [\[code\]](https://github.com/zpf0117b/CLMB/) [\[Author's Blog\]](https://zpf0117b2.github.io/feifei.github.io/2022/01/20/contrastive-learning-for-robust-metagenome-binning/)     |
+| ![A.C1](pubimages/A.C1.png) | Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[paper\]](https://arxiv.org/abs/2402.10153) [\[code\]](https://github.com/Institute4FutureHealth/CHA) [\[website\]](https://www.opencha.com/) |
+| ![C1](pubimages/C1.jpg) | CLMB: deep contrastive learning for robust metagenomic binning<br>**Pengfei Zhang**, Zhengyuan Jiang, Yixuan Wang, Yu Li.<br>RECOMB 2022 (oral)<br>[\[paper\]](https://doi.org/10.1101/2021.11.15.468566) [\[code\]](https://github.com/zpf0117b/CLMB/) [\[blog\]](https://zpf0117b2.github.io/feifei.github.io/2022/01/20/contrastive-learning-for-robust-metagenome-binning/)     |
 
 # Internships
 
@@ -86,7 +86,7 @@ Research Intern in the Chinese University of Hong Kong. Location: Hong Kong
 
 # Awards
 
-Dean’s award from UCI
+Dean's award from UCI
 
 National Encouragement Scholarship (top 20%) from USTC
 
