@@ -7,7 +7,7 @@ sitemap: true
 map: false
 ---
 
-Pengfei Zhang is a PHD student in UC Irvine, majoring in Computer Science. His main research field is applied generative model for motion synthesis and generation. His research interest involves Motion Synthesis and Generation, Large Language/Vision Models (LLMs/LVMs), Retrieval Augmented Generation, Diffusion models, and Pose Estimation. He obtained Bachelor degree in Computer Science at USTC in 2021. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume.pdf).
+Pengfei Zhang is a PHD student in UC Irvine, majoring in Computer Science. His main research field is applied generative model for text or audio driven motion Synthesis, Generation, and Editing. His research interest involves Motion Synthesis and Generation, Large Language/Vision Models (LLMs/LVMs), Retrieval Augmented Generation, Diffusion models, and Pose Estimation. He obtained Bachelor degree in Computer Science at USTC in 2021. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume.pdf).
 
 ---
 
