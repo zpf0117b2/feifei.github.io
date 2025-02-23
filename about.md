@@ -56,7 +56,7 @@ table th:nth-of-type(4) {
 
 | Jan 2023 - Present       | &nbsp;         |
 | ---- |:---------------:|
-|Human motion synthesis and generation is a multifaceted field that combines computer vision, graphics, and machine learning to understand, generate, and control human movements. It encompasses three main components: motion understanding, which analyzes human movements and poses; motion generation, which creates realistic movement sequences using data-driven and physics-based approaches; and trajectory control, which focuses on manipulating and directing generated movements to achieve specific goals. The field employs various generative models like Transformers, VQ-VAEs, and Diffusion Models, finding applications in animation, virtual reality, robotics, and healthcare, while continuing to address challenges in physical plausibility, style preservation, and real-time performance. | ![C4](pubimages/C4.png) | 
+|Human motion synthesis and generation is a multifaceted field that combines computer vision, graphics, and machine learning to understand, generate, and control human movements. It encompasses three main components: motion understanding, which analyzes human movements and poses; motion generation, which creates realistic movement sequences based on text, speech or vision inputs; and trajectory control, which focuses on manipulating and directing generated movements to achieve specific goals. The field employs various generative models like Transformers, VQ-VAEs, and Diffusion Models, finding applications in animation, virtual reality, robotics, and healthcare, while continuing to address challenges in physical plausibility, style preservation, and real-time performance. | ![C4](pubimages/C4.png) | 
 | **Publications:**        | &nbsp;         |
 | ![C4.2](pubimages/C4.2.png) | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> [\[project\]](https://andypinxinliu.github.io/KinMo/) [\[preprint\]](https://arxiv.org/abs/2411.15472) [\[demo\]](https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4) |
 | ![C3](pubimages/C3.png) |  Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
@@ -82,7 +82,13 @@ Research Intern in the Chinese University of Hong Kong. Location: Hong Kong
 
 # Projects
 
-[\[Distributed Chatroom with LLaMa-Powered Summarization\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization): A Multi-topic Web Chatroom which can provide backup on previous conversations and LLaMa Powered summarizations after each refresh
+| Personal Software Programming Projects  | &nbsp;         |
+| ---- |:---------------:|
+| [\[Distributed Chatroom with LLaMa-Powered Summarization\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization)  |  A Multi-topic Web Chatroom which can provide backup on previous conversations and LLaMa Powered summarizations after each refresh |
+
+| Collaborative Lab Projects | &nbsp;         |
+| ---- |:---------------:|
+| [\[OpenCHA - an Automatic Conversational Health Agent\]](https://github.com/Institute4FutureHealth/CHA)  |  [\[website\]](https://www.opencha.com/) <br> A Conversational Health Agent framework with LLM API Integration |
 
 # Awards
 
