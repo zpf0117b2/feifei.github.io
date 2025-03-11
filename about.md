@@ -37,10 +37,10 @@ table {
 
 <style>
 table th:first-of-type {
-    width: 50%;
+    width: 45%;
 }
 table th:nth-of-type(2) {
-    width: 50%;
+    width: 55%;
 }
 /* table th:nth-of-type(3) {
     width: 50%;
@@ -64,7 +64,7 @@ table th:nth-of-type(4) {
 
 
 
-### Healthcare Informatics
+### Large Language Model-Assisted Healthcare
 
 | Sep 2021 - Present       | &nbsp;         |
 | ---- |:---------------:|
