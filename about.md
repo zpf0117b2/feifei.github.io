@@ -37,10 +37,10 @@ table {
 
 <style>
 table th:first-of-type {
-    width: 30%;
+    width: 50%;
 }
 table th:nth-of-type(2) {
-    width: 70%;
+    width: 50%;
 }
 /* table th:nth-of-type(3) {
     width: 50%;
@@ -58,7 +58,7 @@ table th:nth-of-type(4) {
 | ---- |:---------------:|
 |Human motion synthesis and generation is a multifaceted field that combines computer vision, graphics, and machine learning to understand, generate, and control human movements. It encompasses four main components: motion understanding, which analyzes human movements and poses; motion generation, which creates realistic movement sequences based on text, speech or vision inputs; trajectory control, which focuses on manipulating and directing generated movements to achieve specific goals; and rendering, which produces smooth 2D/3D videos or animations based on the generated motion sequences. The field employs various generative models like Transformers, VQ-VAEs, and Diffusion Models, finding applications in animation, virtual reality, robotics, and healthcare, while continuing to address challenges in physical plausibility, style preservation, and real-time performance. | ![C4](pubimages/C4.png) | 
 | **Publications:**        | &nbsp;         |
-| ![C4.3](pubimages/C4.2.png) | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> [\[project\]](https://andypinxinliu.github.io/KinMo/) [\[preprint\]](https://arxiv.org/abs/2411.15472) [\[demo\]](https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4) |
+| ![C4.3](pubimages/C4.3.png) | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> [\[project\]](https://andypinxinliu.github.io/KinMo/) [\[preprint\]](https://arxiv.org/abs/2411.15472) [\[demo\]](https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4) |
 | ![C3](pubimages/C3.png) |  Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> [\[project\]](https://andypinxinliu.github.io/Contextual-Gesture/) [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
 | ![C2](pubimages/C2.jpg) |  Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong. <br> WACV 2024 <br> [\[paper\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html) |
 
