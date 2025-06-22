@@ -22,10 +22,6 @@ Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on int
 06/2024: Start a research scientist intern position at Flawless. Inc!
 
 10/2023: One paper is accepted by WACV 2024!
-<!-- 
-10/2023: Switched to the new lab with research on artificial intelligence, computer vision, and large language model for healthcare!
-
-05/2022: One paper is accepted by RECOMB 2023 for oral presentation! -->
 
 
 <!-- ##### Website Introduction
