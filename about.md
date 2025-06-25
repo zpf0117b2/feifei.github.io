@@ -13,13 +13,15 @@ Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on int
 
 #### NEWS 
 
-06/2025: Start an Applied Scientist Intern position at Amazon Web Service AI Lab!
+06/2025：:fireworks: One paper, [\[KinMo\]](https://andypinxinliu.github.io/KinMo/), is accepted by ICCV 2025!
+
+06/2025: :fist: Start an Applied Scientist Intern position at Amazon Web Service AI Lab!
 
 06/2025: One paper is accepted by AMIA 2025!
 
-12/2024: One paper is accepted by AAAI 2025!
+12/2024: :fireworks: One paper, [\[DEMENTIA-PLAN\]](https://openreview.net/pdf?id=m7KkNKMDVp), is accepted by AAAI W 2025!
 
-06/2024: Start a research scientist intern position at Flawless. Inc!
+06/2024: :fist: Start a research scientist intern position at Flawless. Inc!
 
 10/2023: One paper is accepted by WACV 2024!
 
@@ -54,6 +56,17 @@ table th:nth-of-type(4) {
 
 # Research
 
+### Multimodal Alignment of LLMs for Speech and Visual Understanding and Generation
+
+| Jan 2023 - Present       | &nbsp;         |
+| ---- |:---------------:|
+| Multimodal alignment of LLMs for speech and visual understanding and generation aims to bridge language, audio, and vision into a unified semantic space. By synchronizing temporal and contextual cues across modalities—such as aligning speech with co-speech gestures or visual actions—LLMs can generate coherent, context-aware outputs that reflect human-like perception and behavior. This enables applications like gesture generation, motion synthesis, and audiovisual narration grounded in natural language. | ![Multimodal](pubimages/R_multimodal.jpg) | 
+| **Publications:**        | &nbsp;         |
+| ![C2.3](pubimages/C_kinmo.jpg) | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> ICCV 2025 <br> [\[project\]](https://andypinxinliu.github.io/KinMo/) [\[preprint\]](https://arxiv.org/abs/2411.15472) [\[demo\]](https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4) |
+| ![C2.2](pubimages/C_cospeech.png) |  Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> ACM MM 2025 <br> [\[project\]](https://andypinxinliu.github.io/Contextual-Gesture/) [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
+| ![C2.1](pubimages/C_handformer2t.jpg) |  Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong. <br> WACV 2024 <br> [\[paper\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html) |
+
+
 ### LLM-enhanced Automatic Speech Recognition
 
 | Jan 2023 - Present       | &nbsp;         |
@@ -61,21 +74,7 @@ table th:nth-of-type(4) {
 | LLM-enhanced automatic speech recognition (ASR) integrates large language models with traditional ASR pipelines to improve transcription accuracy, particularly in domain-specific and noisy scenarios. By leveraging external knowledge sources—such as medical knowledge graphs—and contextual understanding, LLMs can correct recognition errors, disambiguate terms, and enhance spoken question answering. This hybrid approach enables more robust and semantically informed speech understanding in complex applications like healthcare. | ![ASR](pubimages/R_ASR.png) | 
 | **Publications:**        | &nbsp;         |
 | ![C1.2](pubimages/C_medspeak.jpg) | MedSpeak: Knowledge Enhanced ASR Error Correction framework for Spoken Medical Question Answering |
-| ![C1.1](pubimages/C_cospeech.png) |  Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> [\[project\]](https://andypinxinliu.github.io/Contextual-Gesture/) [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
-
-
-
-### Multimodal Alignment of LLMs for Speech and Visual Understanding and Generation
-
-| Jan 2023 - Present       | &nbsp;         |
-| ---- |:---------------:|
-| Multimodal alignment of LLMs for speech and visual understanding and generation aims to bridge language, audio, and vision into a unified semantic space. By synchronizing temporal and contextual cues across modalities—such as aligning speech with co-speech gestures or visual actions—LLMs can generate coherent, context-aware outputs that reflect human-like perception and behavior. This enables applications like gesture generation, motion synthesis, and audiovisual narration grounded in natural language. | ![Multimodal](pubimages/R_multimodal.jpg) | 
-| **Publications:**        | &nbsp;         |
-| ![C2.3](pubimages/C_kinmo.jpg) | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> [\[project\]](https://andypinxinliu.github.io/KinMo/) [\[preprint\]](https://arxiv.org/abs/2411.15472) [\[demo\]](https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4) |
-| ![C2.2](pubimages/C_cospeech.png) |  Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> [\[project\]](https://andypinxinliu.github.io/Contextual-Gesture/) [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
-| ![C2.1](pubimages/C_handformer2t.jpg) |  Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong. <br> WACV 2024 <br> [\[paper\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html) |
-
-
+| ![C1.1](pubimages/C_cospeech.png) |  Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> ACM MM 2025 <br> [\[project\]](https://andypinxinliu.github.io/Contextual-Gesture/) [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
 
 ### Agent-based Personalized Healthcare Recommendation Systems
 
