@@ -7,7 +7,7 @@ sitemap: true
 map: false
 ---
 
-Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on intelligent systems at the intersection of large language models (LLMs), speech, and vision. Most of his work centers around building multimodal agent frameworks that unify language, audio, and visual modalities to enhance decision-making in human-centric tasks. His projects span LLM-enhanced automatic speech recognition, multimodal alignment of LLMs for speech and visual understanding and generation, and agent-based personalized healthcare recommendation systems. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume2.pdf).
+Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on intelligent systems at the intersection of large language models (LLMs), speech, and vision. Most of his work centers around building multimodal agent frameworks that unify language, audio, and visual modalities to enhance decision-making in human-centric tasks. His projects span LLM-enhanced automatic speech recognition, multimodal alignment of LLMs for speech and visual understanding and generation, and agent-based personalized healthcare recommendation systems. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume.pdf).
 
 ---
 
