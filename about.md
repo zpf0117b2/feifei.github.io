@@ -13,15 +13,15 @@ Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on int
 
 #### NEWS 
 
-06/2025：:fireworks: One paper, [\[KinMo\]](https://andypinxinliu.github.io/KinMo/), is accepted by ICCV 2025!
+06/2025：🎇 One paper, [\[KinMo\]](https://andypinxinliu.github.io/KinMo/), is accepted by ICCV 2025!
 
-06/2025: :fist: Start an Applied Scientist Intern position at Amazon Web Service AI Lab!
+06/2025: 👊 Start an Applied Scientist Intern position at Amazon Web Service AI Lab!
 
 06/2025: One paper is accepted by AMIA 2025!
 
-12/2024: :fireworks: One paper, [\[DEMENTIA-PLAN\]](https://openreview.net/pdf?id=m7KkNKMDVp), is accepted by AAAI W 2025!
+12/2024: 🎇 One paper, [\[DEMENTIA-PLAN\]](https://openreview.net/pdf?id=m7KkNKMDVp), is accepted by AAAI W 2025!
 
-06/2024: :fist: Start a research scientist intern position at Flawless. Inc!
+06/2024: 👊 Start a research scientist intern position at Flawless. Inc!
 
 10/2023: One paper is accepted by WACV 2024!
 
