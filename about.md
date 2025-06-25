@@ -11,19 +11,19 @@ Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on int
 
 ---
 
-#### NEWS 
+#### 🎇 NEWS 
 
-06/2025：🎇 One paper, [\[KinMo\]](https://andypinxinliu.github.io/KinMo/), is accepted by ICCV 2025!
-
-06/2025: 👊 Start an Applied Scientist Intern position at Amazon Web Service AI Lab!
-
-06/2025: One paper is accepted by AMIA 2025!
-
-12/2024: 🎇 One paper, [\[DEMENTIA-PLAN\]](https://openreview.net/pdf?id=m7KkNKMDVp), is accepted by AAAI W 2025!
-
-06/2024: 👊 Start a research scientist intern position at Flawless. Inc!
-
-10/2023: One paper is accepted by WACV 2024!
+<small> 06/2025: 👏 One paper, [\[KinMo\]](https://andypinxinliu.github.io/KinMo/), is accepted by ICCV 2025! </small>
+<br>
+<small> 06/2025: 👊 Start an Applied Scientist Intern position at Amazon Web Service AI Lab! </small>
+<br>
+<small> 06/2025: One paper, [\[Adaptive LLM Retrieval\]](http://dx.doi.org/10.13140/RG.2.2.29331.80163), is accepted by AMIA 2025! </small>
+<br>
+<small> 12/2024: 👏 One paper, [\[DEMENTIA-PLAN\]](https://openreview.net/pdf?id=m7KkNKMDVp), is accepted by AAAI W 2025! </small>
+<br>
+<small> 06/2024: 👊 Start a research scientist intern position at Flawless. Inc! </small>
+<br>
+<small> 10/2023: One paper, [\[Handformer2T\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html), is accepted by WACV 2024! </small>
 
 
 <!-- ##### Website Introduction
@@ -54,7 +54,7 @@ table th:nth-of-type(4) {
 } */
 </style>
 
-# Research
+# 👀 Research
 
 ### Multimodal Alignment of LLMs for Speech and Visual Understanding and Generation
 
@@ -87,7 +87,7 @@ table th:nth-of-type(4) {
 | ![C3.2](pubimages/C_mahyarEMBC.png) | Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[paper\]](https://arxiv.org/abs/2402.10153) [\[code\]](https://github.com/Institute4FutureHealth/CHA) [\[website\]](https://www.opencha.com/) |
 | ![C3.1](pubimages/C_clmb.jpg) | CLMB: deep contrastive learning for robust metagenomic binning<br>**Pengfei Zhang**, Zhengyuan Jiang, Yixuan Wang, Yu Li.<br>RECOMB 2022 (oral)<br>[\[paper\]](https://doi.org/10.1101/2021.11.15.468566) [\[code\]](https://github.com/zpf0117b/CLMB/) [\[blog\]](https://zpf0117b2.github.io/feifei.github.io/2022/01/20/contrastive-learning-for-robust-metagenome-binning/)     |
 
-# Internships
+# 💪 Internships
 
 2025 Applied Scientist Intern at Amazon Web Service AI Lab. Location: Santa Clara
 
@@ -95,13 +95,13 @@ table th:nth-of-type(4) {
 
 2022 Research Intern in the Chinese University of Hong Kong. Location: Hong Kong
 
-# Projects
+# 📽️ Projects
 
 | Personal Software Programming Projects  | &nbsp;         |
 | ---- |:---------------:|
 | [\[Distributed Chatroom with LLaMa-Powered Summarization\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization)  |  A Multi-topic Web Chatroom which can provide backup on previous conversations and LLaMa Powered summarizations after each refresh |
 
-# Awards
+# 🎖️ Awards
 
 Dean's award from UCI
 
