@@ -13,6 +13,8 @@ Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on int
 
 #### 🎇 NEWS 
 
+<small> 06/2025: 👏 One paper, [\[ContextualGesture\]](https://andypinxinliu.github.io/Contextual-Gesture/), is accepted by ACM MM 2025! </small>
+<br>
 <small> 06/2025: 👏 One paper, [\[KinMo\]](https://andypinxinliu.github.io/KinMo/), is accepted by ICCV 2025! </small>
 <br>
 <small> 06/2025: 👊 Start an Applied Scientist Intern position at Amazon Web Service AI Lab! </small>
