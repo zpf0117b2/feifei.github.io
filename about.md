@@ -7,7 +7,7 @@ sitemap: true
 map: false
 ---
 
-Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on multimodal large language models (LLMs) on low resource settings (the cases where the training corporsa are not sufficient). Most of his work centers around adapting large language models on low resource domains in human-centric tasks. His projects span LLM-enhanced recognition and reasoning on multimodal LLMs for visual understanding and generation, multimodal LLMs on low-resource languages and cultures, and personalized agent on healthcare systems. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume.pdf).
+Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on multimodal large language models (LLMs) on low resource settings (the cases where the training corporsa are not sufficient). Most of his work centers around adapting large language models on low resource domains in human-centric tasks. His projects span LLM-enhanced recognition and reasoning on multimodal LLMs for visual understanding and generation, multimodal LLMs on low-resource languages and cultures, and personalized agent on healthcare systems. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume2.pdf).
 
 ---
 
