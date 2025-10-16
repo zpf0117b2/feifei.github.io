@@ -7,7 +7,7 @@ sitemap: true
 map: false
 ---
 
-Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on multimodal large language models (LLMs) on Human-centric multimedia understanding (video and speech) or low resource settings (the cases where the training corporsa are not sufficient). Most of his work centers around adapting large language models on low resource domains in human-centric tasks. His projects maily focus on multimodal large language models (LLMs) on Human-centric motion understanding, action tokenizer, audio and speech recognition and reasoning, and co-speech visual alignment and generation. He also get involved with projects on multimodal LLMs on low-resource languages and cultures and personalized agent on healthcare systems. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume2.pdf).
+Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on multimodal large language models (LLMs) on Human-centric multimedia understanding (video and speech) or low resource settings (the cases where the training corporsa are not sufficient). Most of his work centers around adapting large language models on low resource domains in human-centric tasks. His projects maily focus on multimodal large language models (LLMs) on Human-centric visual understanding, action tokenizer, audio and speech recognition and reasoning, and co-speech visual alignment and generation. He also get involved with projects on multimodal LLMs on low-resource languages and cultures and personalized agent on healthcare systems. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume2.pdf).
 
 ---
 
