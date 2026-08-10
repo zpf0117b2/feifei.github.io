@@ -1,6 +1,9 @@
 files/UnofficialTranscript.pdf
 files/coverletter/*
 
+# Local secrets - never commit
+.private-infos
+
 # Ignore docs files
 _gh_pages
 _site

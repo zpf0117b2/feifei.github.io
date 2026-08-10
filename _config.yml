@@ -3,7 +3,8 @@ title: Pengfei Zhang
 description: Find interesting stuff in this homepage
 repository: zpf0117b2/feifei.github.io
 github_url: https://github.com/zpf0117b2
-url: https://zpf0117b2.github.io/feifei.github.io/main/
+url: https://zpf0117b2.github.io
+baseurl: /feifei.github.io
 avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
@@ -19,6 +20,7 @@ plugins:
 
 # Optimize Jekyll
 exclude:
+  - .private-infos
   - .editorconfig
   - .git
   - .jekyll-cache
