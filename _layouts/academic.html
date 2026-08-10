@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="academic-page">
+
+    <nav class="academic-nav">
+      <ul>
+        {%- for nav in site.data.navigation %}
+          <li><a href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <main class="academic">
+      {{ content }}
+    </main>
+
+    <footer class="academic-footer">
+      <small>
+        &copy; {{ site.time | date: '%Y' }} <a href="{{ site.author.url }}">{{ site.author.name }}</a>.
+        Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
+      </small>
+    </footer>
+
+    {%- if page.math -%}
+      {% include mathjax.html %}
+    {%- endif -%}
+
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+  </body>
+</html>

@@ -1,0 +1,58 @@
+{%- comment -%}
+  Renders one entry from _data/publications.yml.
+  Usage: {% include publication.html pub=item %}
+{%- endcomment -%}
+
+{%- assign pub = include.pub -%}
+{%- assign primary = pub.links | first -%}
+{%- capture me_bold -%}<strong>{{ site.author.name }}</strong>{%- endcapture -%}
+
+<article class="pub{% unless pub.image %} pub--noimage{% endunless %}">
+  {%- if pub.image %}
+  <div class="pub-thumb">
+    <img src="{{ pub.image | relative_url }}" alt="{{ pub.title | escape }}" loading="lazy">
+  </div>
+  {%- endif %}
+
+  <div class="pub-body">
+    <h3 class="pub-title">
+      {%- if primary -%}
+        {%- if primary.url contains '://' -%}
+          {%- assign primary_url = primary.url -%}
+        {%- else -%}
+          {%- assign primary_url = primary.url | relative_url -%}
+        {%- endif -%}
+        <a href="{{ primary_url }}">{{ pub.title }}</a>
+      {%- else -%}
+        {{ pub.title }}
+      {%- endif -%}
+    </h3>
+
+    {%- if pub.authors and pub.authors != "" %}
+    <p class="pub-authors">
+      {{- pub.authors | replace: site.author.name, me_bold -}}
+    </p>
+    {%- endif %}
+
+    {%- if pub.venue and pub.venue != "" %}
+    <p class="pub-venue">{{ pub.venue }}</p>
+    {%- endif %}
+
+    {%- if pub.description and pub.description != "" %}
+    <p class="pub-desc">{{ pub.description }}</p>
+    {%- endif %}
+
+    {%- if pub.links %}
+    <p class="pub-links">
+      {%- for link in pub.links -%}
+        {%- if link.url contains '://' -%}
+          {%- assign link_url = link.url -%}
+        {%- else -%}
+          {%- assign link_url = link.url | relative_url -%}
+        {%- endif -%}
+        <a href="{{ link_url }}">{{ link.label }}</a>{% unless forloop.last %} <span class="pub-sep">/</span> {% endunless %}
+      {%- endfor -%}
+    </p>
+    {%- endif %}
+  </div>
+</article>

@@ -1,0 +1,104 @@
+# Publications, rendered by _includes/publication.html on /academic/.
+#
+# Fields:
+#   year        required. Used as the section heading and for sorting.
+#               Use "Preprint" for work without a venue yet - it sorts above all years.
+#   title       required.
+#   authors     required. Plain string. Your own name is bolded automatically
+#               by the template, so write it normally.
+#   venue       optional. Shown in green italics under the authors.
+#   image       optional. Site-absolute path, e.g. /pubimages/foo.jpg
+#   description optional. One or two sentences on the contribution. Left blank
+#               below deliberately - see the note at the bottom of this file.
+#   links       optional. List of {label, url}. Relative URLs starting with "/"
+#               are resolved against the site baseurl automatically.
+
+- year: 2025
+  title: "KinMo: Kinematic-aware Human Motion Understanding and Generation"
+  authors: "Pengfei Zhang, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri"
+  venue: "ICCV 2025"
+  image: /pubimages/C_kinmo.jpg
+  links:
+    - label: project
+      url: https://andypinxinliu.github.io/KinMo/
+    - label: preprint
+      url: https://arxiv.org/abs/2411.15472
+    - label: demo
+      url: https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4
+
+- year: 2025
+  title: "Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation"
+  authors: "Pinxin Liu, Pengfei Zhang, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski"
+  venue: "ACM MM 2025"
+  image: /pubimages/C_cospeech.png
+  links:
+    - label: project
+      url: https://andypinxinliu.github.io/Contextual-Gesture/
+    - label: preprint
+      url: https://arxiv.org/abs/2502.07239
+
+- year: 2025
+  title: "Adaptive Constraint Relaxation in Personalized Nutrition Recommendations: An LLM-Driven Knowledge Graph Retrieval Approach"
+  authors: "Pengfei Zhang, Mohbat Fnu, Yutong Song, Oshani Seneviratne, Zhongqi Yang, Iman Azimi, Amir M. Rahmani"
+  venue: "AMIA 2025 - American Medical Informatics Association"
+  image: /pubimages/C_adaptiveRetrieval.jpg
+  links:
+    - label: preprint
+      url: http://dx.doi.org/10.13140/RG.2.2.29331.80163
+
+- year: 2025
+  title: "DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care"
+  authors: "Yutong Song, Chenhan Lyu, Pengfei Zhang, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani"
+  venue: "AAAI 2025 Workshop: Knowledge Graphs for Health Equity, Justice, and Social Services"
+  image: /pubimages/C_dementialPlan2.png
+  links:
+    - label: preprint
+      url: https://openreview.net/pdf?id=m7KkNKMDVp
+
+- year: 2024
+  title: "Handformer2T: A Lightweight Regression-based Model for Interacting Hands Pose Estimation from a Single RGB Image"
+  authors: "Pengfei Zhang, Deying Kong"
+  venue: "WACV 2024"
+  image: /pubimages/C_handformer2t.jpg
+  links:
+    - label: paper
+      url: https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html
+
+- year: 2024
+  title: "Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients"
+  authors: "Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, Pengfei Zhang, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani"
+  venue: "EMBC 2024"
+  image: /pubimages/C_mahyarEMBC.png
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2402.10153
+    - label: code
+      url: https://github.com/Institute4FutureHealth/CHA
+    - label: website
+      url: https://www.opencha.com/
+
+- year: 2022
+  title: "CLMB: Deep Contrastive Learning for Robust Metagenomic Binning"
+  authors: "Pengfei Zhang, Zhengyuan Jiang, Yixuan Wang, Yu Li"
+  venue: "RECOMB 2022 (oral)"
+  image: /pubimages/C_clmb.jpg
+  links:
+    - label: paper
+      url: https://doi.org/10.1101/2021.11.15.468566
+    - label: code
+      url: https://github.com/zpf0117b/CLMB/
+    - label: blog
+      url: /2022/01/20/contrastive-learning-for-robust-metagenome-binning/
+
+# TODO(pengfei): about.md lists MedSpeak with no authors and no venue, so both are
+# blank here rather than guessed. Fill them in and move the entry to its real year.
+- year: Preprint
+  title: "MedSpeak: Knowledge Enhanced ASR Error Correction Framework for Spoken Medical Question Answering"
+  authors: ""
+  venue: ""
+  image: /pubimages/C_medspeak.jpg
+
+# NOTE(pengfei): `description` is intentionally absent on every entry above.
+# about.md has per-research-area blurbs but no per-paper summaries, and writing
+# claims about your own contributions was not something to guess at. Add a
+# `description:` line to any entry and it renders automatically.
