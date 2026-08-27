@@ -32,12 +32,13 @@
   techniques: "Steering Vectors for LLM Personalization, Retrieval-Augmented Generation (RAG)"
   image: /pubimages/R_personalized.png
 
-# Not part of the resume's three selected-project sections, but kept so earlier
-# published work stays visible. Delete this block to match the resume exactly.
-- id: other
-  numeral: ""
-  title: "Earlier Work"
-  summary: >-
-    Published work predating the three project directions above.
-  techniques: ""
-  image: ""
+# HIDDEN FOR NOW. The Earlier Work section is commented out; uncomment the
+# block below (and the matching entries in publications.yml) to show it again.
+# - id: other
+#   numeral: ""
+#   title: "Earlier Work"
+#   summary: >-
+#     Published work predating the three project directions above.
+#   techniques: ""
+#   image: ""
+#

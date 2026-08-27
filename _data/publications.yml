@@ -214,32 +214,34 @@
       url: http://dx.doi.org/10.13140/RG.2.2.29331.80163
 
 # ------------------------------------------------------------------- Other
-# NOT in the updated resume's selected publications. Kept so earlier published
-# work stays visible; delete these two entries to match the resume exactly.
-- project: other
-  ref: ""
-  title: "Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients"
-  venue: "EMBC 2024"
-  image: /pubimages/C_mahyarEMBC.png
-  authors: "Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, Pengfei Zhang, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani"
-  links:
-    - label: paper
-      url: https://arxiv.org/abs/2402.10153
-    - label: code
-      url: https://github.com/Institute4FutureHealth/CHA
-    - label: website
-      url: https://www.opencha.com/
+# HIDDEN FOR NOW. These two entries are commented out so the Earlier Work
+# section does not render. Uncomment them and the 'other' block in
+# _data/projects.yml to bring the section back.
+# - project: other
+#   ref: ""
+#   title: "Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients"
+#   venue: "EMBC 2024"
+#   image: /pubimages/C_mahyarEMBC.png
+#   authors: "Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, Pengfei Zhang, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani"
+#   links:
+#     - label: paper
+#       url: https://arxiv.org/abs/2402.10153
+#     - label: code
+#       url: https://github.com/Institute4FutureHealth/CHA
+#     - label: website
+#       url: https://www.opencha.com/
 
-- project: other
-  ref: ""
-  title: "CLMB: Deep Contrastive Learning for Robust Metagenomic Binning"
-  venue: "RECOMB 2022 (oral)"
-  image: /pubimages/C_clmb.jpg
-  authors: "Pengfei Zhang, Zhengyuan Jiang, Yixuan Wang, Yu Li"
-  links:
-    - label: paper
-      url: https://doi.org/10.1101/2021.11.15.468566
-    - label: code
-      url: https://github.com/zpf0117b/CLMB/
-    - label: blog
-      url: /2022/01/20/contrastive-learning-for-robust-metagenome-binning/
+# - project: other
+#   ref: ""
+#   title: "CLMB: Deep Contrastive Learning for Robust Metagenomic Binning"
+#   venue: "RECOMB 2022 (oral)"
+#   image: /pubimages/C_clmb.jpg
+#   authors: "Pengfei Zhang, Zhengyuan Jiang, Yixuan Wang, Yu Li"
+#   links:
+#     - label: paper
+#       url: https://doi.org/10.1101/2021.11.15.468566
+#     - label: code
+#       url: https://github.com/zpf0117b/CLMB/
+#     - label: blog
+#       url: /2022/01/20/contrastive-learning-for-robust-metagenome-binning/
+
