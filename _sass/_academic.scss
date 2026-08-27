@@ -7,15 +7,42 @@
 // Colours come from _variables.scss custom properties so the page follows the
 // site's light/dark scheme instead of hard-coding the reference's light theme.
 
-.academic-page {
-  --academic-width: 900px;
+// Accent tokens shared by /academic/ and /main/. /main/ still follows the
+// system colour scheme, so these have a dark variant.
+:root {
   --venue-color: #38853f;
+  --ref-bg: var(--gray-200);
+  --ref-color: var(--gray-700);
 }
 
 @media (prefers-color-scheme: dark) {
-  .academic-page {
+  :root {
     --venue-color: #6cc070;
+    --ref-bg: rgba(255, 255, 255, .12);
+    --ref-color: var(--gray-300);
   }
+}
+
+// The academic page is deliberately always light, even when the OS is in dark
+// mode: it re-declares the light palette on <body>, which wins over the
+// :root-level dark overrides for this page and everything inside it.
+.academic-page {
+  --academic-width: 900px;
+
+  --body-bg: #fff;
+  --body-color: var(--gray-700);
+  --heading-color: var(--gray-900);
+  --link-color: var(--blue);
+  --link-hover-color: #1c7ed6;
+  --border-color: var(--gray-300);
+  --code-bg: #fbf1c7;
+
+  --venue-color: #38853f;
+  --ref-bg: var(--gray-200);
+  --ref-color: var(--gray-700);
+
+  background-color: #fff;
+  color: var(--body-color);
 }
 
 .academic {
@@ -359,19 +386,12 @@
   padding: 0 .35em;
   margin-right: .15em;
   border-radius: var(--border-radius);
-  background-color: var(--gray-200);
-  color: var(--gray-700);
+  background-color: var(--ref-bg);
+  color: var(--ref-color);
   font-size: .8em;
   font-weight: 700;
   text-align: center;
   vertical-align: baseline;
-}
-
-@media (prefers-color-scheme: dark) {
-  .pub-ref {
-    background-color: rgba(255, 255, 255, .12);
-    color: var(--gray-300);
-  }
 }
 
 // /main/ renders the same include inside the theme's narrower centre column,

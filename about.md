@@ -8,10 +8,20 @@ map: false
 ---
 
 Pengfei Zhang is a PhD student in Computer Science at the University of California, Irvine.
-His research centres on human understanding, multimodal large language models, and multimodal
-agentic reinforcement learning. He works on VLM-based multimodal agents for human-centric image
-and video understanding, generation and editing; on speech language models and the joint
-understanding of text, image, video and audio; and on personalized LLM agents for healthcare.
+His research sits at the intersection of human understanding, multimodal large language models,
+and multimodal agentic reinforcement learning, with a particular focus on domains where
+supervision is scarce and the signal is inherently multimodal.
+
+His work spans three directions. He builds VLM-based multimodal agents for human-centric image
+and video understanding, generation and editing, covering motion representation, action
+tokenization and identity-preserving multi-turn editing. He works on speech language models and
+the joint understanding of text, image, video and audio, including post-training methods that
+align models to pathological and low-resource speech. And he designs personalized LLM agents for
+healthcare, where knowledge-graph retrieval and long-horizon dialogue optimization are used to
+tailor conversations to individual patients.
+
+Before UC Irvine, Pengfei received his B.Eng in Computer Science from the University of Science
+and Technology of China. He has interned at ByteDance, Amazon Web Services and Flawless AI.
 
 He is applying for 2027 New Grad roles on F1 OPT, with expected graduation in Dec 2026,
 Mar 2027 or Jun 2027. A full CV is available at
@@ -22,6 +32,12 @@ page at [Academic]({{ '/academic/' | relative_url }}).
 
 ## 🎇 News
 
+<small> 06/2026: 👏 One paper, **AP-GRPO**, is accepted by EMNLP 2026! </small>
+<br>
+<small> 03/2026: 👊 Start a Machine Learning Engineer Intern position at ByteDance! </small>
+<br>
+<small> 02/2026: 👏 Two papers, **LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey** and **DemMA**, are accepted by ACL 2026! </small>
+<br>
 <small> 06/2025: 👏 One paper, [\[ContextualGesture\]](https://andypinxinliu.github.io/Contextual-Gesture/), is accepted by ACM MM 2025! </small>
 <br>
 <small> 06/2025: 👏 One paper, [\[KinMo\]](https://andypinxinliu.github.io/KinMo/), is accepted by ICCV 2025! </small>
