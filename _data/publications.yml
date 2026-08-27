@@ -53,7 +53,12 @@
   ref: I.c
   title: "LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey"
   venue: "ACL 2026"
-  # image: /pubimages/C_humanAgentSurvey.jpg   # <- drop the file in pubimages/ and uncomment
+  image: /pubimages/C_humanAgentSurvey.png
+  links:
+    - label: project
+      url: https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems
+    - label: paper
+      url: https://aclanthology.org/2026.findings-acl.1811/
 
 - project: I
   ref: I.b
@@ -91,23 +96,33 @@
   ref: II.f
   title: "AP-GRPO: Anchor-Gated Phonetic Alignment with Policy Optimization for Pathological Speech Reconstruction"
   venue: "EMNLP 2026 (accepted)"
-  # image: /pubimages/C_apgrpo.jpg   # <- drop the file in pubimages/ and uncomment
+  image: /pubimages/C_apgrpo.png
   description: >-
     A GRPO framework with a phonetic reward that aligns speech language models to
     the original speech signal through audible-anchor preservation and inter-anchor
     phonetic compatibility, combining an anchor-gated reward that matches anchors in
     clear regions with an inter-anchor phonetic alignment reward that checks whether
     recovered content is phonetically supported by the corrupted span.
+  links:
+    - label: preprint
+      url: https://arxiv.org/abs/2606.15540
 
 - project: II
   ref: II.e
   title: "DemMA: Dementia Multi-Turn Dialogue Agent with Expert-Guided Reasoning and Action Simulation"
   venue: "ACL 2026"
-  # image: /pubimages/C_demma.jpg   # <- drop the file in pubimages/ and uncomment
+  image: /pubimages/C_demma.png
   description: >-
     An expert-guided multi-turn dialogue agent that simulates dementia patients with
     clinically grounded personas by distilling expert-guided reasoning and action
     simulation.
+  links:
+    - label: paper
+      url: https://aclanthology.org/2026.findings-acl.605/
+    - label: code
+      url: https://github.com/RainieLLM/DemMA
+    - label: data
+      url: https://huggingface.co/datasets/hulehule/DemMA-Dialog
 
 - project: II
   ref: II.d
@@ -118,12 +133,17 @@
     A knowledge-enhanced retrieval-augmented generation framework built on a
     knowledge graph capturing semantic medical relationships and phonetic
     similarities between medical terms.
+  links:
+    - label: preprint
+      url: https://arxiv.org/html/2602.00981v1
+    - label: code
+      url: https://github.com/RainieLLM/MedSpeak
 
 - project: II
   ref: II.c
   title: "AudioLens: Multi-Perspective Speech Clustering with Audio-Language Models"
   venue: "Under Review"
-  # image: /pubimages/C_audiolens.jpg   # <- drop the file in pubimages/ and uncomment
+  image: /pubimages/C_audiolens.png
   description: >-
     Introduces audio multi-perspective clustering, where a model partitions speech
     recordings according to a natural-language perspective while inferring both the
@@ -136,16 +156,19 @@
   ref: II.b
   title: "From Sounds to Scenes: A Benchmark for Evaluating Context-Aware Auditory Scene Understanding in Large Audio Language Models"
   venue: "Under Review"
-  # image: /pubimages/C_soundsToScenes.jpg   # <- drop the file in pubimages/ and uncomment
+  image: /pubimages/C_soundsToScenes.png
   description: >-
     A benchmark evaluating whether large audio-language models can jointly interpret
     speech, events and scene-level information to perform coherent semantic reasoning.
+  links:
+    - label: preprint
+      url: https://arxiv.org/abs/2606.25391
 
 - project: II
   ref: II.a
   title: "Hallucination Rates of Speech Language Models on Pathological Speech Recognition: A Pilot Multi-Cohort Audit"
   venue: "BSN 2025"
-  # image: /pubimages/C_hallucinationAudit.jpg   # <- drop the file in pubimages/ and uncomment
+  image: /pubimages/C_hallucinationAudit.png
   description: >-
     An evaluation of popular speech language models on pathological speech
     recognition across hallucination types: insertion, fluent completion, entity
@@ -156,7 +179,7 @@
   ref: III.c
   title: "Can the Environment Speak for Itself? T2-GRPO: Turn-Trajectory Group Relative Policy Optimization for Caregiver Agents"
   venue: "Under Review"
-  # image: /pubimages/C_t2grpo.jpg   # <- drop the file in pubimages/ and uncomment
+  image: /pubimages/C_t2grpo.png
   description: >-
     A turn-trajectory optimization scheme for long-horizon caregiver agents that
     derives dense turn-level rewards from patient-state transitions, normalizes them
