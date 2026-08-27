@@ -16,6 +16,7 @@
 
   <div class="pub-body">
     <h3 class="pub-title">
+      {%- if pub.ref and pub.ref != "" %}<span class="pub-ref">{{ pub.ref }}</span> {% endif -%}
       {%- if primary -%}
         {%- if primary.url contains '://' -%}
           {%- assign primary_url = primary.url -%}
@@ -28,11 +29,14 @@
       {%- endif -%}
     </h3>
 
-    {%- if pub.authors and pub.authors != "" %}
-    <p class="pub-authors">
-      {{- pub.authors | replace: site.author.name, me_bold -}}
-    </p>
-    {%- endif %}
+    {%- comment -%}
+      Author lists are intentionally not rendered for now. The data is still in
+      _data/publications.yml; restore by uncommenting this block.
+
+      {%- if pub.authors and pub.authors != "" %}
+      <p class="pub-authors">{{ pub.authors | replace: site.author.name, me_bold }}</p>
+      {%- endif %}
+    {%- endcomment -%}
 
     {%- if pub.venue and pub.venue != "" %}
     <p class="pub-venue">{{ pub.venue }}</p>

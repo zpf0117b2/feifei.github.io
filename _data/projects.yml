@@ -1,0 +1,43 @@
+# Project sections for /academic/ and /main/, mirroring "SELECTED PROJECTS"
+# in files/PengfeiZhang_resume2.pdf. ORDER IN THIS FILE IS THE ORDER ON THE PAGE.
+#
+# Each publication in _data/publications.yml carries a `project:` key matching
+# an `id:` below. Publications render in the order they appear in that file,
+# which is newest-first (resume letters descending: e, d, c, b, a).
+
+- id: I
+  numeral: "I"
+  title: "VLM-based Multimodal Agents for Human-Centric Image/Video Understanding, Generation, and Editing"
+  summary: >-
+    Understanding, generation and editing of human-centric images and videos with
+    complex motions, as essential personalized functions of multimodal LLMs and
+    multimodal agents.
+  techniques: "VLM-based Multimodal Agent Orchestration, MLLM Post-Training (DPO, GRPO, GDPO)"
+  image: /pubimages/R_multimodal.jpg
+
+- id: II
+  numeral: "II"
+  title: "Speech Language Models and Multimodal Agents"
+  summary: >-
+    Joint understanding of multimedia signals - text, images, video, speech and
+    audio - within a single model.
+  techniques: "MLLM Post-Training (DPO, GRPO, GDPO), Chain-of-Thought (CoT) Distillation"
+  image: /pubimages/R_ASR.png
+
+- id: III
+  numeral: "III"
+  title: "Personalized LLM Agents on Healthcare"
+  summary: >-
+    Personalized conversational healthcare agents, tailored to individual patients.
+  techniques: "Steering Vectors for LLM Personalization, Retrieval-Augmented Generation (RAG)"
+  image: /pubimages/R_personalized.jpg
+
+# Not part of the resume's three selected-project sections, but kept so earlier
+# published work stays visible. Delete this block to match the resume exactly.
+- id: other
+  numeral: ""
+  title: "Earlier Work"
+  summary: >-
+    Published work predating the three project directions above.
+  techniques: ""
+  image: ""

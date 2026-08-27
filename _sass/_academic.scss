@@ -305,3 +305,108 @@
     font-weight: 700;
   }
 }
+
+// Project sections (resume "SELECTED PROJECTS" I / II / III), shared by
+// /academic/ and /main/ via _includes/project-sections.html.
+.project-block {
+  margin-bottom: var(--spacer-3);
+}
+
+.project-head {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: var(--spacer-2);
+  align-items: start;
+  margin-bottom: var(--spacer);
+  padding-bottom: var(--spacer);
+  border-bottom: 1px solid var(--border-color);
+
+  img {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+.project-title {
+  margin: 0 0 .4rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.project-numeral {
+  color: var(--gray-600);
+}
+
+.project-summary {
+  margin: 0 0 .35rem;
+  font-size: .93rem;
+}
+
+.project-tech {
+  margin: 0;
+  font-size: .85rem;
+  color: var(--gray-600);
+}
+
+.project-tech-label {
+  font-weight: 700;
+}
+
+// Resume cross-reference badge, e.g. "I.e"
+.pub-ref {
+  display: inline-block;
+  min-width: 2.4em;
+  padding: 0 .35em;
+  margin-right: .15em;
+  border-radius: var(--border-radius);
+  background-color: var(--gray-200);
+  color: var(--gray-700);
+  font-size: .8em;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-ref {
+    background-color: rgba(255, 255, 255, .12);
+    color: var(--gray-300);
+  }
+}
+
+// /main/ renders the same include inside the theme's narrower centre column,
+// so the thumbnail tracks shrink there.
+.page-projects {
+  .pub {
+    grid-template-columns: 170px 1fr;
+  }
+
+  .project-head {
+    grid-template-columns: 1fr 150px;
+  }
+}
+
+@media (max-width: $lg-width) {
+  .page-projects {
+    .pub,
+    .project-head {
+      grid-template-columns: 1fr;
+    }
+
+    .pub-thumb,
+    .project-thumb {
+      max-width: 320px;
+    }
+  }
+}
+
+@media (max-width: $md-width) {
+  .project-head {
+    grid-template-columns: 1fr;
+  }
+
+  .project-thumb {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}

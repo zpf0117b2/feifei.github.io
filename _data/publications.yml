@@ -1,23 +1,45 @@
-# Publications, rendered by _includes/publication.html on /academic/.
+# Publications for /academic/ and /main/, transcribed from the SELECTED PROJECTS
+# section of files/PengfeiZhang_resume2.pdf.
+#
+# ORDER MATTERS. Entries render top-to-bottom within their project, so they are
+# listed newest-first, matching the resume letters descending (e, d, c, b, a).
 #
 # Fields:
-#   year        required. Used as the section heading and for sorting.
-#               Use "Preprint" for work without a venue yet - it sorts above all years.
+#   project     required. Matches an id: in _data/projects.yml.
+#   ref         resume label such as I.e. Shown as a small badge; the resume's
+#               Working Experience section cross-references these.
 #   title       required.
-#   authors     required. Plain string. Your own name is bolded automatically
-#               by the template, so write it normally.
-#   venue       optional. Shown in green italics under the authors.
-#   image       optional. Site-absolute path, e.g. /pubimages/foo.jpg
-#   description optional. One or two sentences on the contribution. Left blank
-#               below deliberately - see the note at the bottom of this file.
-#   links       optional. List of {label, url}. Relative URLs starting with "/"
-#               are resolved against the site baseurl automatically.
+#   venue       optional. Shown in green italics.
+#   image       optional. Entries without one render full width.
+#   description optional. Rendered as a short paragraph.
+#   links       optional. List of label/url pairs. Relative URLs starting with /
+#               resolve against baseurl.
+#   authors     retained as data but NOT rendered - see _includes/publication.html.
 
-- year: 2025
+# ---------------------------------------------------------------- Project I
+- project: I
+  ref: I.e
+  title: "Identity Decay in Multi-Turn Human-Centric Image Editing: A Benchmark and a Multimodal Agentic Correction Framework"
+  venue: "Under Review"
+  description: >-
+    Introduces a benchmark measuring identity and fidelity decay in multi-turn
+    human-centric image editing, and a correction pipeline in which a multimodal
+    agent orchestrates identity correction using pretrained human segmentation and
+    parsing models (Sapiens for body, DML_CSR for face) together with deterministic
+    image operators such as TPS warp and high-frequency preservation transfer,
+    flattening the degradation curve.
+
+- project: I
+  ref: I.d
   title: "KinMo: Kinematic-aware Human Motion Understanding and Generation"
-  authors: "Pengfei Zhang, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri"
   venue: "ICCV 2025"
   image: /pubimages/C_kinmo.jpg
+  authors: "Pengfei Zhang, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri"
+  description: >-
+    A VLM-based dataset enhancement pipeline that extends existing text-motion
+    alignment datasets with a body-decomposition motion representation, enabling
+    precise motion descriptions, plus a hierarchical motion-text alignment approach
+    that fuses motion detail into text semantics for finer motion control.
   links:
     - label: project
       url: https://andypinxinliu.github.io/KinMo/
@@ -26,49 +48,149 @@
     - label: demo
       url: https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4
 
-- year: 2025
-  title: "Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation"
-  authors: "Pinxin Liu, Pengfei Zhang, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski"
+- project: I
+  ref: I.c
+  title: "LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey"
+  venue: "ACL 2026"
+
+- project: I
+  ref: I.b
+  title: "Contextual Gesture: Co-Speech Gesture Video Generation through Context-aware Gesture Representation"
   venue: "ACM MM 2025"
   image: /pubimages/C_cospeech.png
+  authors: "Pinxin Liu, Pengfei Zhang, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski"
+  description: >-
+    Improves co-speech gesture video generation through chronological
+    speech-gesture alignment that temporally connects the two modalities, and a
+    contextualized gesture tokenization that folds speech context into motion
+    pattern representation through distillation.
   links:
     - label: project
       url: https://andypinxinliu.github.io/Contextual-Gesture/
     - label: preprint
       url: https://arxiv.org/abs/2502.07239
 
-- year: 2025
-  title: "Adaptive Constraint Relaxation in Personalized Nutrition Recommendations: An LLM-Driven Knowledge Graph Retrieval Approach"
-  authors: "Pengfei Zhang, Mohbat Fnu, Yutong Song, Oshani Seneviratne, Zhongqi Yang, Iman Azimi, Amir M. Rahmani"
-  venue: "AMIA 2025 - American Medical Informatics Association"
-  image: /pubimages/C_adaptiveRetrieval.jpg
-  links:
-    - label: preprint
-      url: http://dx.doi.org/10.13140/RG.2.2.29331.80163
-
-- year: 2025
-  title: "DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care"
-  authors: "Yutong Song, Chenhan Lyu, Pengfei Zhang, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani"
-  venue: "AAAI 2025 Workshop: Knowledge Graphs for Health Equity, Justice, and Social Services"
-  image: /pubimages/C_dementialPlan2.png
-  links:
-    - label: preprint
-      url: https://openreview.net/pdf?id=m7KkNKMDVp
-
-- year: 2024
+- project: I
+  ref: I.a
   title: "Handformer2T: A Lightweight Regression-based Model for Interacting Hands Pose Estimation from a Single RGB Image"
-  authors: "Pengfei Zhang, Deying Kong"
   venue: "WACV 2024"
   image: /pubimages/C_handformer2t.jpg
+  authors: "Pengfei Zhang, Deying Kong"
+  description: >-
+    A lightweight model using hand-level tokenization in a transformer-based
+    architecture for interacting hand pose estimation, where only one token is
+    used per hand.
   links:
     - label: paper
       url: https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html
 
-- year: 2024
+# --------------------------------------------------------------- Project II
+- project: II
+  ref: II.f
+  title: "AP-GRPO: Anchor-Gated Phonetic Alignment with Policy Optimization for Pathological Speech Reconstruction"
+  venue: "EMNLP 2026 (accepted)"
+  description: >-
+    A GRPO framework with a phonetic reward that aligns speech language models to
+    the original speech signal through audible-anchor preservation and inter-anchor
+    phonetic compatibility, combining an anchor-gated reward that matches anchors in
+    clear regions with an inter-anchor phonetic alignment reward that checks whether
+    recovered content is phonetically supported by the corrupted span.
+
+- project: II
+  ref: II.e
+  title: "DemMA: Dementia Multi-Turn Dialogue Agent with Expert-Guided Reasoning and Action Simulation"
+  venue: "ACL 2026"
+  description: >-
+    An expert-guided multi-turn dialogue agent that simulates dementia patients with
+    clinically grounded personas by distilling expert-guided reasoning and action
+    simulation.
+
+- project: II
+  ref: II.d
+  title: "MedSpeak: Knowledge Enhanced ASR Error Correction Framework for Spoken Medical Question Answering"
+  venue: "ICASSP 2026"
+  image: /pubimages/C_medspeak.jpg
+  description: >-
+    A knowledge-enhanced retrieval-augmented generation framework built on a
+    knowledge graph capturing semantic medical relationships and phonetic
+    similarities between medical terms.
+
+- project: II
+  ref: II.c
+  title: "AudioLens: Multi-Perspective Speech Clustering with Audio-Language Models"
+  venue: "Under Review"
+  description: >-
+    Introduces audio multi-perspective clustering, where a model partitions speech
+    recordings according to a natural-language perspective while inferring both the
+    number of clusters and their assignments. Contributes AudioLens-Bench, a
+    benchmark evaluating cross-perspective generalization, and AudioLens-R1, a large
+    audio-language model trained with reasoning distillation and direct preference
+    optimization.
+
+- project: II
+  ref: II.b
+  title: "From Sounds to Scenes: A Benchmark for Evaluating Context-Aware Auditory Scene Understanding in Large Audio Language Models"
+  venue: "Under Review"
+  description: >-
+    A benchmark evaluating whether large audio-language models can jointly interpret
+    speech, events and scene-level information to perform coherent semantic reasoning.
+
+- project: II
+  ref: II.a
+  title: "Hallucination Rates of Speech Language Models on Pathological Speech Recognition: A Pilot Multi-Cohort Audit"
+  venue: "BSN 2025"
+  description: >-
+    An evaluation of popular speech language models on pathological speech
+    recognition across hallucination types: insertion, fluent completion, entity
+    fabrication and semantic substitution.
+
+# -------------------------------------------------------------- Project III
+- project: III
+  ref: III.c
+  title: "Can the Environment Speak for Itself? T2-GRPO: Turn-Trajectory Group Relative Policy Optimization for Caregiver Agents"
+  venue: "Under Review"
+  description: >-
+    A turn-trajectory optimization scheme for long-horizon caregiver agents that
+    derives dense turn-level rewards from patient-state transitions, normalizes them
+    separately from trajectory-level outcomes via centered-rank group-relative
+    advantages, and adds a binary safety veto to enforce hard behavioral constraints.
+
+- project: III
+  ref: III.b
+  title: "DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care"
+  venue: "AAAI 2025"
+  image: /pubimages/C_dementialPlan2.png
+  authors: "Yutong Song, Chenhan Lyu, Pengfei Zhang, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani"
+  description: >-
+    A retrieval-augmented generation framework that improves conversations with
+    mild-stage dementia patients by integrating multiple knowledge graphs with LLMs.
+  links:
+    - label: preprint
+      url: https://openreview.net/pdf?id=m7KkNKMDVp
+
+- project: III
+  ref: III.a
+  title: "Adaptive Constraint Relaxation in Personalized Nutrition Recommendations: An LLM-Driven Knowledge Graph Retrieval Approach"
+  venue: "AMIA 2025 (Oral)"
+  image: /pubimages/C_adaptiveRetrieval.jpg
+  authors: "Pengfei Zhang, Mohbat Fnu, Yutong Song, Oshani Seneviratne, Zhongqi Yang, Iman Azimi, Amir M. Rahmani"
+  description: >-
+    An LLM-driven knowledge graph retrieval system for personalized food
+    recommendation, resolving the all-or-nothing limitation of traditional
+    recommendation systems.
+  links:
+    - label: preprint
+      url: http://dx.doi.org/10.13140/RG.2.2.29331.80163
+
+# ------------------------------------------------------------------- Other
+# NOT in the updated resume's selected publications. Kept so earlier published
+# work stays visible; delete these two entries to match the resume exactly.
+- project: other
+  ref: ""
   title: "Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients"
-  authors: "Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, Pengfei Zhang, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani"
   venue: "EMBC 2024"
   image: /pubimages/C_mahyarEMBC.png
+  authors: "Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, Pengfei Zhang, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani"
   links:
     - label: paper
       url: https://arxiv.org/abs/2402.10153
@@ -77,11 +199,12 @@
     - label: website
       url: https://www.opencha.com/
 
-- year: 2022
+- project: other
+  ref: ""
   title: "CLMB: Deep Contrastive Learning for Robust Metagenomic Binning"
-  authors: "Pengfei Zhang, Zhengyuan Jiang, Yixuan Wang, Yu Li"
   venue: "RECOMB 2022 (oral)"
   image: /pubimages/C_clmb.jpg
+  authors: "Pengfei Zhang, Zhengyuan Jiang, Yixuan Wang, Yu Li"
   links:
     - label: paper
       url: https://doi.org/10.1101/2021.11.15.468566
@@ -89,16 +212,3 @@
       url: https://github.com/zpf0117b/CLMB/
     - label: blog
       url: /2022/01/20/contrastive-learning-for-robust-metagenome-binning/
-
-# TODO(pengfei): about.md lists MedSpeak with no authors and no venue, so both are
-# blank here rather than guessed. Fill them in and move the entry to its real year.
-- year: Preprint
-  title: "MedSpeak: Knowledge Enhanced ASR Error Correction Framework for Spoken Medical Question Answering"
-  authors: ""
-  venue: ""
-  image: /pubimages/C_medspeak.jpg
-
-# NOTE(pengfei): `description` is intentionally absent on every entry above.
-# about.md has per-research-area blurbs but no per-paper summaries, and writing
-# claims about your own contributions was not something to guess at. Add a
-# `description:` line to any entry and it renders automatically.

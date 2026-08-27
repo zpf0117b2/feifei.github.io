@@ -2,16 +2,25 @@
 layout: page
 permalink: /main/
 title: Bio
-# toc:  true
+toc: true
 sitemap: true
 map: false
 ---
 
-Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on multimodal large language models (LLMs) on Human-centric multimedia understanding (video and speech) or low resource settings (the cases where the training corporsa are not sufficient). Most of his work centers around adapting large language models on low resource domains in human-centric tasks. His projects maily focus on multimodal large language models (LLMs) on Human-centric visual understanding, action tokenizer, audio and speech recognition and reasoning, and co-speech visual alignment and generation. He also get involved with projects on multimodal LLMs on low-resource languages and cultures and personalized agent on healthcare systems. His resume is presented in [Pengfei’s CV](files/PengfeiZhang_resume2.pdf).
+Pengfei Zhang is a PhD student in Computer Science at the University of California, Irvine.
+His research centres on human understanding, multimodal large language models, and multimodal
+agentic reinforcement learning. He works on VLM-based multimodal agents for human-centric image
+and video understanding, generation and editing; on speech language models and the joint
+understanding of text, image, video and audio; and on personalized LLM agents for healthcare.
+
+He is applying for 2027 New Grad roles on F1 OPT, with expected graduation in Dec 2026,
+Mar 2027 or Jun 2027. A full CV is available at
+[Pengfei's CV]({{ '/files/PengfeiZhang_resume2.pdf' | relative_url }}), and a fuller academic
+page at [Academic]({{ '/academic/' | relative_url }}).
 
 ---
 
-#### 🎇 NEWS 
+## 🎇 News
 
 <small> 06/2025: 👏 One paper, [\[ContextualGesture\]](https://andypinxinliu.github.io/Contextual-Gesture/), is accepted by ACM MM 2025! </small>
 <br>
@@ -20,93 +29,49 @@ Pengfei Zhang is a PHD student in UC Irvine, with a strong research focus on mul
 <small> 06/2025: 👊 Start an Applied Scientist Intern position at Amazon Web Service AI Lab! </small>
 <br>
 <small> 06/2025: One paper, [\[Adaptive LLM Retrieval\]](http://dx.doi.org/10.13140/RG.2.2.29331.80163), is accepted by AMIA 2025! </small>
-<br>
-<!-- <small> 12/2024: 👏 One paper, [\[DEMENTIA-PLAN\]](https://openreview.net/pdf?id=m7KkNKMDVp), is accepted by AAAI W 2025! </small>
-<br>
-<small> 06/2024: 👊 Start a research scientist intern position at Flawless. Inc! </small>
-<br>
-<small> 10/2023: One paper, [\[Handformer2T\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html), is accepted by WACV 2024! </small> -->
 
+## 🎓 Education
 
-<!-- ##### Website Introduction
+| Years | Degree |
+| ---- | ---- |
+| 2022 – | PhD in Computer Science, University of California, Irvine |
+| 2017 – 2021 | B.Eng in Computer Science, University of Science and Technology of China |
 
-My scientific experiences are recorded in [research](https://zpf0117b.github.io/PengfeiZhang.github.io/research/) and [publications](https://zpf0117b.github.io/PengfeiZhang.github.io/publications/).  -->
+## 👀 Research
 
+Research interests: Human Understanding · Multimodal Large Language Models · Multimodal Agentic RL
 
-<!-- <embed src="http://files2.17173.com/__flash/2011/10/21/honehone_clock_tr.swf"> -->
+<div class="page-projects">
+{% include project-sections.html %}
+</div>
 
-<style scoped>
-table {
-  font-size: 10px;
-}
-</style>
+<small>
+A note on code release: some of this work was done during internships, and the code cannot be
+released by the company. All details, including implementation, prompts, dependencies and
+referenced packages, are described in the papers, and we release everything we are permitted to,
+including datasets and demos. Please get in touch with any questions about reproduction.
+</small>
 
-<style>
-table th:first-of-type {
-    width: 45%;
-}
-table th:nth-of-type(2) {
-    width: 55%;
-}
-/* table th:nth-of-type(3) {
-    width: 50%;
-}
-table th:nth-of-type(4) {
-    width: 30%;
-} */
-</style>
+## 💪 Working Experience
 
-# 👀 Research
+| Years | Position |
+| ---- | ---- |
+| Mar – Sep 2026 | Machine Learning Engineer Intern, ByteDance, San Jose |
+| Jun – Sep 2025 | Applied Scientist Intern, Amazon Web Services, San Jose |
+| Jun – Sep 2024 | Research Scientist Intern, Flawless AI Inc., Los Angeles |
+| 2022 | Research Intern, The Chinese University of Hong Kong |
 
-### Multimodal LLMs for low-resource speech and visual understanding and generation
+## 📽️ Production Projects
 
-| Jan 2023 - Present       | &nbsp;         |
-| ---- |:---------------:|
-| Multimodal LLMs for Human-Centric Video Understanding and Generation aims to bridge human-centric video, audio (speech), and text into a unified semantic space. By action tokenizing and temporal synchronizing across modalities—such as aligning speech with co-speech gestures or visual actions—LLMs can generate coherent, context-aware outputs that reflect human-like perception and behavior. This enables applications like gesture generation, motion synthesis, and audiovisual narration grounded in natural language. | ![Multimodal](pubimages/R_multimodal.jpg) | 
-| **Publications:**        | &nbsp;         |
-| ![C2.3](pubimages/C_kinmo.jpg) | KinMo: Kinematic-aware Human Motion Understanding and Generation.<br> **Pengfei Zhang**, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri.<br> ICCV 2025 <br> [\[project\]](https://andypinxinliu.github.io/KinMo/) [\[preprint\]](https://arxiv.org/abs/2411.15472) [\[demo\]](https://andypinxinliu.github.io/KinMo/static/videos/KinMo-Demo.mp4) |
-| ![C2.2](pubimages/C_cospeech.png) |  Contextual Gesture: Co-Speech Gesture Video Generation through Semantic-aware Gesture Representation.<br> Pinxin Liu, **Pengfei Zhang**, Hyeongwoo Kim, Pablo Garrido, Ari Shapiro, Kyle Olszewski.<br> ACM MM 2025 <br> [\[project\]](https://andypinxinliu.github.io/Contextual-Gesture/) [\[preprint\]](https://arxiv.org/abs/2502.07239)  |
-| ![C2.1](pubimages/C_handformer2t.jpg) |  Handformer2T: A Lightweight Regression-based model for Interacting Hands Pose Estimation from a single RGB Image.<br> **Pengfei Zhang**, Deying Kong. <br> WACV 2024 <br> [\[paper\]](https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html) |
+| Project | Description |
+| ---- | ---- |
+| TikTok Ads – ChatGPT App | A conversational advertisement creation app on the ChatGPT App Store that turns a product page URL into a live TikTok Smart+ campaign. |
+| Claworld | An agent-to-agent platform where agents interact with each other, trading skills and carrying out tasks. |
+| [\[Distributed Chatroom with LLaMa-Powered Summarization\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization) | A multi-topic web chatroom which provides backup on previous conversations and LLaMa-powered summarizations after each refresh. |
 
-Note on code release: As this project is done during my Internships, the code is not allowed by the company to be released. However, all details (including implementation details, prompts, dependencies and referred packages) are introduced in the paper. Meanwhile, we are trying our best to release everything that is allowed, including the datasets, demos, and etc. We apologize for the inconvenience. Feel free to contact me for any questions regarding the reproduction.
+## 🎖️ Awards
 
-### LLM-enhanced recognition and reasoning on low-resource audios
-
-| Jan 2023 - Present       | &nbsp;         |
-| ---- |:---------------:|
-| LLM-enhanced recognition and reasoning on low-resource languages integrates large language models with traditional ASR pipelines to improve transcription accuracy, particularly in domain-specific and noisy scenarios. By leveraging external knowledge sources—such as medical knowledge graphs—and contextual understanding, LLMs can correct recognition errors, disambiguate terms, and enhance spoken question answering. This hybrid approach enables more robust and semantically informed speech understanding in complex applications like healthcare. | ![ASR](pubimages/R_ASR.png) | 
-| **Publications:**        | &nbsp;         |
-| ![C1.2](pubimages/C_medspeak.jpg) | MedSpeak: Knowledge Enhanced ASR Error Correction framework for Spoken Medical Question Answering |
-
-### Personalized agent on healthcare systems
-
-| Sep 2021 - Present       | &nbsp;         |
-| ---- |:---------------:|
-| Personalized agent on healthcare systems leverage autonomous software agents to analyze individual patient data—such as medical history, lifestyle, and preferences—to deliver tailored health advice and treatment options. These systems can interact dynamically with users and other agents (e.g., diagnostic or monitoring tools), adapting recommendations in real time to improve decision-making and patient outcomes. | ![Agent](pubimages/R_personalized.jpg) |
-| **Publications:**        | &nbsp; |
-| ![C3.4](pubimages/C_adaptiveRetrieval.jpg) | Adaptive Constraint Relaxation in Personalized Nutrition Recommendations: An LLM-Driven Knowledge Graph Retrieval Approach<br> Pengfei Zhang, Mohbat Fnu, Yutong Song, Oshani Seneviratne, Zhongqi Yang, Iman Azimi, Amir M. Rahmani<br> AMIA - American Medical Informatics Association <br>[\[preprint\]](http://dx.doi.org/10.13140/RG.2.2.29331.80163) |
-| ![C3.3](pubimages/C_dementialPlan2.png) | DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care.<br> Yutong Song, Chenhan Lyu, **Pengfei Zhang**, Sabine Brunswicker, Nikil Dutt, Amir M. Rahmani.<br> AAAI 2025 Workshop: Knowledge Graphs for Health Equity, Justice, and Social Services <br>[\[preprint\]](https://openreview.net/pdf?id=m7KkNKMDVp) |
-| ![C3.2](pubimages/C_mahyarEMBC.png) | Knowledge-Infused LLM-Powered Conversational Health Agent: A Case Study for Diabetes Patients.<br> Mahyar Abbasian, Zhongqi Yang, Elahe Khatibi, **Pengfei Zhang**, Nitish Nagesh, Iman Azimi, Ramesh Jain, Amir M. Rahmani.<br> EMBC 2024 <br> [\[paper\]](https://arxiv.org/abs/2402.10153) [\[code\]](https://github.com/Institute4FutureHealth/CHA) [\[website\]](https://www.opencha.com/) |
-| ![C3.1](pubimages/C_clmb.jpg) | CLMB: deep contrastive learning for robust metagenomic binning<br>**Pengfei Zhang**, Zhengyuan Jiang, Yixuan Wang, Yu Li.<br>RECOMB 2022 (oral)<br>[\[paper\]](https://doi.org/10.1101/2021.11.15.468566) [\[code\]](https://github.com/zpf0117b/CLMB/) [\[blog\]](https://zpf0117b2.github.io/feifei.github.io/2022/01/20/contrastive-learning-for-robust-metagenome-binning/)     |
-
-# 💪 Internships
-
-2025 Applied Scientist Intern at Amazon Web Service AI Lab. Location: Santa Clara
-
-2024 Research Science Intern at Flawless. AI. Inc. Location: Los Angeles
-
-2022 Research Intern in the Chinese University of Hong Kong. Location: Hong Kong
-
-# 📽️ Projects
-
-| Personal Software Programming Projects  | &nbsp;         |
-| ---- |:---------------:|
-| [\[Distributed Chatroom with LLaMa-Powered Summarization\]](https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization)  |  A Multi-topic Web Chatroom which can provide backup on previous conversations and LLaMa Powered summarizations after each refresh |
-
-# 🎖️ Awards
-
-Dean's award from UCI
-
-National Encouragement Scholarship (top 20%) from USTC
-
-National Encouragement Scholarship (top 20%) from USTC
+| Years | Award |
+| ---- | ---- |
+| 2022 – 2024 | Dean's Award, UC Irvine |
+| 2018 – 2020 | National Encouragement Scholarship (top 20%), USTC |

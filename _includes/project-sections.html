@@ -1,0 +1,39 @@
+{%- comment -%}
+  Renders every project section from _data/projects.yml, each followed by its
+  publications from _data/publications.yml (filtered by the shared project id,
+  preserving that file's order = newest first).
+
+  Shared by /academic/ and /main/ so the two pages cannot drift apart.
+  Usage: {% include project-sections.html %}
+{%- endcomment -%}
+
+{%- for project in site.data.projects -%}
+  {%- assign pubs = site.data.publications | where: "project", project.id -%}
+  {%- if pubs.size > 0 %}
+<section class="project-block" id="project-{{ project.id }}">
+  <div class="project-head">
+    <div class="project-head-text">
+      <h3 class="project-title">
+        {%- if project.numeral and project.numeral != "" %}<span class="project-numeral">{{ project.numeral }}.</span> {% endif -%}
+        {{ project.title }}
+      </h3>
+      {%- if project.summary and project.summary != "" %}
+      <p class="project-summary">{{ project.summary }}</p>
+      {%- endif %}
+      {%- if project.techniques and project.techniques != "" %}
+      <p class="project-tech"><span class="project-tech-label">Techniques:</span> {{ project.techniques }}</p>
+      {%- endif %}
+    </div>
+    {%- if project.image and project.image != "" %}
+    <div class="project-thumb">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">
+    </div>
+    {%- endif %}
+  </div>
+
+  {%- for item in pubs %}
+  {% include publication.html pub=item %}
+  {%- endfor %}
+</section>
+  {%- endif -%}
+{%- endfor -%}

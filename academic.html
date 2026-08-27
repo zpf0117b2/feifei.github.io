@@ -2,7 +2,7 @@
 layout: academic
 permalink: /academic/
 title: Academic
-description: Publications, research and academic background of Pengfei Zhang.
+description: Research projects, publications and academic background of Pengfei Zhang.
 sitemap: true
 ---
 
@@ -12,16 +12,16 @@ sitemap: true
   </div>
   <div class="academic-intro">
     <h1>{{ site.author.name }}</h1>
-    <p class="academic-affiliation">PhD Student, University of California, Irvine</p>
+    <p class="academic-affiliation">PhD Student in Computer Science, University of California, Irvine</p>
     <p>
-      I am a PhD student at UC Irvine working on multimodal large language models for
-      human-centric multimedia understanding, spanning video and speech, and on
-      low-resource settings where training corpora are limited. My work centres on
-      adapting large language models to low-resource domains in human-centric tasks:
-      human-centric visual understanding, action tokenization, audio and speech
-      recognition and reasoning, and co-speech visual alignment and generation. I am
-      also involved in projects on multimodal LLMs for low-resource languages and
-      cultures, and on personalized agents for healthcare systems.
+      My research centres on human understanding, multimodal large language models,
+      and multimodal agentic reinforcement learning. I work on VLM-based multimodal
+      agents for human-centric image and video understanding, generation and editing;
+      on speech language models and the joint understanding of text, image, video and
+      audio; and on personalized LLM agents for healthcare.
+    </p>
+    <p class="academic-availability">
+      Applying for 2027 New Grad roles, F1 OPT. Expected graduation: Dec 2026, Mar 2027 or Jun 2027.
     </p>
     <ul class="academic-links">
       <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a></li>
@@ -34,6 +34,19 @@ sitemap: true
 </header>
 
 <section class="academic-section">
+  <h2>Research Interests</h2>
+  <p>Human Understanding &middot; Multimodal Large Language Models &middot; Multimodal Agentic RL</p>
+</section>
+
+<section class="academic-section">
+  <h2>Education</h2>
+  <ul class="entry-list">
+    <li><span class="entry-when">2022&ndash;</span><span>PhD in Computer Science, University of California, Irvine</span></li>
+    <li><span class="entry-when">2017&ndash;2021</span><span>B.Eng in Computer Science, University of Science and Technology of China</span></li>
+  </ul>
+</section>
+
+<section class="academic-section">
   <h2>News</h2>
   <ul class="news-list">
     <li><span class="news-date">06/2025</span><span>One paper, <a href="https://andypinxinliu.github.io/Contextual-Gesture/">Contextual Gesture</a>, is accepted by ACM MM 2025.</span></li>
@@ -44,106 +57,75 @@ sitemap: true
 </section>
 
 <section class="academic-section">
-  <h2>Research</h2>
-
-  <div class="research-area">
-    <div>
-      <h3>Multimodal LLMs for low-resource speech and visual understanding and generation</h3>
-      <p>
-        Bridging human-centric video, audio (speech) and text into a unified semantic
-        space. By action tokenizing and temporally synchronizing across modalities, such
-        as aligning speech with co-speech gestures or visual actions, LLMs can generate
-        coherent, context-aware outputs that reflect human-like perception and behaviour.
-        This enables gesture generation, motion synthesis and audiovisual narration
-        grounded in natural language.
-      </p>
-    </div>
-    <img src="{{ '/pubimages/R_multimodal.jpg' | relative_url }}" alt="Multimodal LLM research overview" loading="lazy">
-  </div>
-
-  <div class="research-area">
-    <div>
-      <h3>LLM-enhanced recognition and reasoning on low-resource audio</h3>
-      <p>
-        Integrating large language models with traditional ASR pipelines to improve
-        transcription accuracy, particularly in domain-specific and noisy scenarios. By
-        leveraging external knowledge sources such as medical knowledge graphs, together
-        with contextual understanding, LLMs can correct recognition errors, disambiguate
-        terms and enhance spoken question answering.
-      </p>
-    </div>
-    <img src="{{ '/pubimages/R_ASR.png' | relative_url }}" alt="LLM-enhanced ASR research overview" loading="lazy">
-  </div>
-
-  <div class="research-area">
-    <div>
-      <h3>Personalized agents for healthcare systems</h3>
-      <p>
-        Autonomous agents that analyse individual patient data, such as medical history,
-        lifestyle and preferences, to deliver tailored health advice and treatment
-        options. These systems interact dynamically with users and with other agents,
-        adapting recommendations in real time to improve decision-making and patient
-        outcomes.
-      </p>
-    </div>
-    <img src="{{ '/pubimages/R_personalized.jpg' | relative_url }}" alt="Personalized healthcare agent research overview" loading="lazy">
-  </div>
-
-  <p><small>
-    A note on code release: some of this work was done during internships, and the code
-    cannot be released by the company. All details, including implementation, prompts,
-    dependencies and referenced packages, are described in the papers, and we release
-    everything we are permitted to, including datasets and demos. Please get in touch
-    with any questions about reproduction.
-  </small></p>
+  <h2>Selected Projects and Publications</h2>
+  {% include project-sections.html %}
 </section>
 
 <section class="academic-section">
-  <h2>Publications</h2>
-  {%- assign pub_groups = site.data.publications | group_by: "year" | sort: "name" | reverse %}
-  {%- for group in pub_groups %}
-    <h3 class="pub-year">{{ group.name }}</h3>
-    {%- for item in group.items %}
-      {% include publication.html pub=item %}
-    {%- endfor %}
-  {%- endfor %}
-</section>
-
-<section class="academic-section">
-  <h2>Industrial Experience</h2>
-  <ul class="entry-list">
-    <li><span class="entry-when">2025</span><span>Applied Scientist Intern, Amazon Web Services AI Lab &middot; Santa Clara, CA</span></li>
-    <li><span class="entry-when">2024</span><span>Research Scientist Intern, Flawless AI Inc. &middot; Los Angeles, CA</span></li>
-    <li><span class="entry-when">2022</span><span>Research Intern, The Chinese University of Hong Kong &middot; Hong Kong</span></li>
-  </ul>
-</section>
-
-<section class="academic-section">
-  <h2>Education</h2>
-  <ul class="entry-list">
-    <li><span class="entry-when">PhD</span><span>University of California, Irvine</span></li>
-    <li><span class="entry-when">Prior</span><span>University of Science and Technology of China (USTC)</span></li>
-  </ul>
-</section>
-
-<section class="academic-section">
-  <h2>Awards</h2>
-  <ul class="entry-list">
-    <li><span class="entry-when">UCI</span><span>Dean's Award</span></li>
-    <li><span class="entry-when">USTC</span><span>National Encouragement Scholarship (top 20%), awarded twice</span></li>
-  </ul>
-</section>
-
-<section class="academic-section">
-  <h2>Projects</h2>
+  <h2>Working Experience</h2>
   <ul class="entry-list">
     <li>
-      <span class="entry-when">Software</span>
+      <span class="entry-when">2026</span>
+      <span>
+        <strong>Machine Learning Engineer Intern</strong>, ByteDance &middot; San Jose, CA &middot; Mar&ndash;Sep 2026<br>
+        <small>Multimodal agent tool usage and social intelligence of agents (I.e, Projects I and II).</small>
+      </span>
+    </li>
+    <li>
+      <span class="entry-when">2025</span>
+      <span>
+        <strong>Applied Scientist Intern</strong>, Amazon Web Services &middot; San Jose, CA &middot; Jun&ndash;Sep 2025<br>
+        <small>Multimodal LLM recognition, understanding and reasoning in low-resource languages (II.a, II.d).</small>
+      </span>
+    </li>
+    <li>
+      <span class="entry-when">2024</span>
+      <span>
+        <strong>Research Scientist Intern</strong>, Flawless AI Inc. &middot; Los Angeles, CA &middot; Jun&ndash;Sep 2024<br>
+        <small>Multimodal LLMs for human motion understanding and multimedia generation/editing (I.c, I.b).</small>
+      </span>
+    </li>
+    <li>
+      <span class="entry-when">2022</span>
+      <span><strong>Research Intern</strong>, The Chinese University of Hong Kong &middot; Hong Kong</span>
+    </li>
+  </ul>
+</section>
+
+<section class="academic-section">
+  <h2>Production Projects</h2>
+  <ul class="entry-list">
+    <li>
+      <span class="entry-when">I</span>
+      <span>
+        <strong>TikTok Ads &ndash; ChatGPT App</strong> &mdash; a conversational advertisement creation app on the
+        ChatGPT App Store that turns a product page URL into a live TikTok Smart+ campaign.<br>
+        <small>MCP layer, controlled video generation, agent self-reflection, multi-agent orchestration.</small>
+      </span>
+    </li>
+    <li>
+      <span class="entry-when">II</span>
+      <span>
+        <strong>Claworld</strong> &mdash; an agent-to-agent platform where agents interact with each other,
+        trading skills and carrying out tasks.<br>
+        <small>Agent society, self-evolving agents.</small>
+      </span>
+    </li>
+    <li>
+      <span class="entry-when">III</span>
       <span>
         <a href="https://github.com/zpf0117b/Distributed-Chatroom-with-LLaMa-Powered-Summarization">Distributed Chatroom with LLaMa-Powered Summarization</a>
         &mdash; a multi-topic web chatroom that backs up previous conversations and produces
         LLaMa-powered summaries after each refresh.
       </span>
     </li>
+  </ul>
+</section>
+
+<section class="academic-section">
+  <h2>Awards</h2>
+  <ul class="entry-list">
+    <li><span class="entry-when">2022&ndash;2024</span><span>Dean's Award, UC Irvine</span></li>
+    <li><span class="entry-when">2018&ndash;2020</span><span>National Encouragement Scholarship (top 20%), USTC</span></li>
   </ul>
 </section>
