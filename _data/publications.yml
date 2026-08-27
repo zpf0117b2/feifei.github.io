@@ -21,7 +21,7 @@
   ref: I.e
   title: "Identity Decay in Multi-Turn Human-Centric Image Editing: A Benchmark and a Multimodal Agentic Correction Framework"
   venue: "Under Review"
-  # image: /pubimages/C_identityDecay.jpg   # <- drop the file in pubimages/ and uncomment
+  image: /pubimages/C_identityDecay.png
   description: >-
     Introduces a benchmark measuring identity and fidelity decay in multi-turn
     human-centric image editing, and a correction pipeline in which a multimodal
