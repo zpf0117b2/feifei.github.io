@@ -17,10 +17,9 @@
 
 - id: II
   numeral: "II"
-  title: "Speech Language Models and Multimodal Agents"
+  title: "Speech Language Models and Agents in Low-Resource Settings"
   summary: >-
-    Joint understanding of multimedia signals - text, images, video, speech and
-    audio - within a single model.
+    Joint understanding of multimedia signals (texts, videos, speeches, audios, etc), especially in low-resource settings.
   techniques: "MLLM Post-Training (DPO, GRPO, GDPO), Chain-of-Thought (CoT) Distillation"
   image: /pubimages/R_speechllm.png
 
