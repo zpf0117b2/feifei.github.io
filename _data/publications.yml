@@ -1,8 +1,8 @@
-# Publications for /academic/ and /main/, transcribed from the SELECTED PROJECTS
+# Publications for /academic/ and /main/, transcribed from the RESEARCH PROJECTS
 # section of files/PengfeiZhang_resume2.pdf.
 #
 # ORDER MATTERS. Entries render top-to-bottom within their project, so they are
-# listed newest-first, matching the resume letters descending (e, d, c, b, a).
+# listed newest-first, matching the resume letters descending (..., c, b, a).
 #
 # Fields:
 #   project     required. Matches an id: in _data/projects.yml.
@@ -24,11 +24,11 @@
   image: /pubimages/C_identityDecay.png
   description: >-
     Introduces a benchmark measuring identity and fidelity decay in multi-turn
-    human-centric image editing, and a correction pipeline in which a multimodal
-    agent orchestrates identity correction using pretrained human segmentation and
-    parsing models (Sapiens for body, DML_CSR for face) together with deterministic
-    image operators such as TPS warp and high-frequency preservation transfer,
-    flattening the degradation curve.
+    human-centric image editing, and an identity correction pipeline in which a
+    multimodal agent orchestrates pretrained human segmentation and parsing models
+    (Sapiens for body, DML_CSR for face) together with deterministic image
+    operators such as TPS warp and high-frequency transfer. The pipeline raises the
+    ArcFace score by 0.192/0.201/0.246 on turns 1/2/3.
 
 - project: I
   ref: I.d
@@ -37,10 +37,12 @@
   image: /pubimages/C_kinmo.jpg
   authors: "Pengfei Zhang, Pinxin Liu, Pablo Garrido, Hyeongwoo Kim, Bindita Chaudhuri"
   description: >-
-    A VLM-based dataset enhancement pipeline that extends existing text-motion
-    alignment datasets with a body-decomposition motion representation, enabling
-    precise motion descriptions, plus a hierarchical motion-text alignment approach
-    that fuses motion detail into text semantics for finer motion control.
+    A VLM-based dataset enhancement pipeline that extends existing motion datasets
+    through knowledge distillation, plus a hierarchical motion-text alignment
+    approach that gradually fuses motion details into text semantics. It improves
+    SOTA text-motion understanding (R@1 of 0.729/0.730 on motion-text
+    inter-retrieval) and text-based motion generation (R@1 of 0.532) with more
+    precise motion control.
   links:
     - label: project
       url: https://andypinxinliu.github.io/KinMo/
@@ -70,7 +72,8 @@
     Improves co-speech gesture video generation through chronological
     speech-gesture alignment that temporally connects the two modalities, and a
     contextualized gesture tokenization that folds speech context into motion
-    pattern representation through distillation.
+    pattern representation through distillation. It reduces FGD to 8.76 and FVD to
+    466.43.
   links:
     - label: project
       url: https://andypinxinliu.github.io/Contextual-Gesture/
@@ -86,36 +89,38 @@
   description: >-
     A lightweight model using hand-level tokenization in a transformer-based
     architecture for interacting hand pose estimation, where only one token is
-    used per hand.
+    used per hand. It runs at 3x the FPS with equivalent performance.
   links:
     - label: paper
       url: https://openaccess.thecvf.com/content/WACV2024/html/Zhang_Handformer2T_A_Lightweight_Regression-Based_Model_for_Interacting_Hands_Pose_Estimation_WACV_2024_paper.html
 
 # --------------------------------------------------------------- Project II
 - project: II
-  ref: II.f
+  ref: II.g
   title: "AP-GRPO: Anchor-Gated Phonetic Alignment with Policy Optimization for Pathological Speech Reconstruction"
   venue: "EMNLP 2026 (accepted)"
   image: /pubimages/C_apgrpo.png
   description: >-
-    A GRPO framework with a phonetic reward that aligns speech language models to
-    the original speech signal through audible-anchor preservation and inter-anchor
-    phonetic compatibility, combining an anchor-gated reward that matches anchors in
-    clear regions with an inter-anchor phonetic alignment reward that checks whether
-    recovered content is phonetically supported by the corrupted span.
+    A GRPO framework with a phonetic reward that aligns speech language models
+    through audible-anchor preservation and phonetic alignment, combining an
+    anchor-gated reward that matches anchors in clear regions with an inter-anchor
+    phonetic alignment reward that checks whether recovered content is phonetically
+    supported by the corresponding corrupted speech span. It reduces WER by 0.39 on
+    severe cases and 0.27 on medium cases, and suppresses most hallucinated
+    insertions.
   links:
     - label: preprint
       url: https://arxiv.org/abs/2606.15540
 
 - project: II
-  ref: II.e
+  ref: II.f
   title: "DemMA: Dementia Multi-Turn Dialogue Agent with Expert-Guided Reasoning and Action Simulation"
   venue: "ACL 2026"
   image: /pubimages/C_demma.png
   description: >-
-    An expert-guided multi-turn dialogue agent that simulates dementia patients with
-    clinically grounded personas by distilling expert-guided reasoning and action
-    simulation.
+    An expert-guided multi-turn agent that simulates dementia patients with
+    clinically grounded personas by distilling expert-guided reasoning. DemMA
+    achieves state-of-the-art simulation fidelity and multi-turn dialogue quality.
   links:
     - label: paper
       url: https://aclanthology.org/2026.findings-acl.605/
@@ -125,14 +130,14 @@
       url: https://huggingface.co/datasets/hulehule/DemMA-Dialog
 
 - project: II
-  ref: II.d
+  ref: II.e
   title: "MedSpeak: Knowledge Enhanced ASR Error Correction Framework for Spoken Medical Question Answering"
   venue: "ICASSP 2026"
   image: /pubimages/C_medspeak.jpg
   description: >-
-    A knowledge-enhanced retrieval-augmented generation framework built on a
-    knowledge graph capturing semantic medical relationships and phonetic
-    similarities between medical terms.
+    A knowledge-enhanced retrieval-augmented generation framework built on two
+    knowledge graphs, one for phonetic similarity and one for semantic medical
+    relationships, raising MMLU QA accuracy to 93.4%.
   links:
     - label: preprint
       url: https://arxiv.org/html/2602.00981v1
@@ -140,17 +145,33 @@
       url: https://github.com/RainieLLM/MedSpeak
 
 - project: II
+  ref: II.d
+  title: "ADAPT: Audio-Depth Action Planning with Transition-Aware Rewards for Lights-Out Industrial Navigation"
+  venue: "Under Review"
+  description: >-
+    An audio-depth action-planning framework with spatial-audio perception,
+    optimized for closed-loop navigation through reinforcement learning. In unseen
+    environments it reaches 90.6% success under clean conditions and retains 60.0%
+    success under the most challenging localized-noise setting.
+  links:
+    - label: preprint
+      url: https://arxiv.org/abs/2610.15956
+
+- project: II
   ref: II.c
   title: "AudioLens: Multi-Perspective Speech Clustering with Audio-Language Models"
   venue: "Under Review"
   image: /pubimages/C_audiolens.png
   description: >-
-    Introduces audio multi-perspective clustering, where a model partitions speech
-    recordings according to a natural-language perspective while inferring both the
-    number of clusters and their assignments. Contributes AudioLens-Bench, a
-    benchmark evaluating cross-perspective generalization, and AudioLens-R1, a large
-    audio-language model trained with reasoning distillation and direct preference
-    optimization.
+    Introduces audio multi-perspective clustering, where a large audio-language
+    model directly partitions speech recordings according to a natural-language
+    perspective, with a benchmark spanning multiple applications and perspectives.
+    The proposed AudioLens-R1, trained with reasoning distillation and direct
+    preference optimization, improves overall ARI by 12.99 points and V-measure by
+    11.62 points.
+  links:
+    - label: preprint
+      url: https://arxiv.org/abs/2608.25177
 
 - project: II
   ref: II.b
